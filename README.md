@@ -7,6 +7,9 @@ TIBIAN Quranic Technologies Map
 - ITQAN Products Map.
 - Quran Apps Directory Map.
 - ITQAN Community Organizational Chart Map.
+  - [Content Team Hiring Plan](ITQAN-Content-Team-Hiring-Plan.md) (Reference)
+  - [Partners & Community Acquisition Plan](ITQAN-Partners-Community-Acquisition-Plan.md)
+  - [Volunteer/Intern Orchestration Plan](ITQAN-Volunteer-Intern-Orchestration-Plan.md)
 
 ## How It Works
 
