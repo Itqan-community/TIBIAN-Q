@@ -1,6 +1,6 @@
-# ITQAN Community Content Team - Prioritized Hiring Plan
+# ITQAN Community Content & Developer Team - Prioritized Hiring Plan
 
-**Document Version**: 1.0
+**Document Version**: 1.1
 **Created**: 2025-10-01
 **Last Updated**: 2025-10-01
 **Location**: Egypt (Initial Hiring Focus)
@@ -53,14 +53,15 @@ Build a content production and orchestration machine that:
 
 ### Summary Table
 
-| **Priority** | **Role**                                      | **Hire Order** | **Time to Hire** | **Hiring Window**   | **Key Strategic Reason**                                      |
-| ------------ | --------------------------------------------- | -------------- | ---------------- | ------------------- | ------------------------------------------------------------- |
-| **1st**      | Content Strategist (AI-Driven)                | First          | ~1 month         | Month 1             | Sets vision, manages team, establishes workflows              |
-| **2nd**      | Video Editor / Motion Designer (AI-Enhanced)  | Second         | ~1.5 months      | Months 1.5-2.5      | Enables visual storytelling and social media presence         |
-| **3rd**      | Graphic Designer / Visual Content Creator     | Third          | ~2 months        | Months 2.5-4.5      | Establishes brand identity and creates static visual assets   |
-| **4th**      | Content Marketing Specialist (AI-Optimized)   | Fourth         | ~2 months        | Months 4.5-6.5      | Amplifies reach through distribution and analytics            |
+| **Priority** | **Role**                                           | **Hire Order** | **Time to Hire** | **Hiring Window**   | **Key Strategic Reason**                                      |
+| ------------ | -------------------------------------------------- | -------------- | ---------------- | ------------------- | ------------------------------------------------------------- |
+| **1st**      | Content Strategist (AI-Driven)                     | First          | ~1 month         | Month 1             | Sets vision, manages team, establishes workflows              |
+| **2nd**      | Video Editor / Motion Designer (AI-Enhanced)       | Second         | ~1.5 months      | Months 1.5-2.5      | Enables visual storytelling and social media presence         |
+| **3rd**      | Graphic Designer / Visual Content Creator          | Third          | ~2 months        | Months 2.5-4.5      | Establishes brand identity and creates static visual assets   |
+| **4th**      | Content Marketing Specialist (AI-Optimized)        | Fourth         | ~2 months        | Months 4.5-6.5      | Amplifies reach through distribution and analytics            |
+| **5th**      | Technical Community Manager - Developer Community  | Fifth          | ~2 months        | Months 6.5-8.5      | Orchestrates developer community and product feedback loops   |
 
-**Total Timeline**: Approximately 6.5 months to build complete content team (allowing for overlap in hiring processes)
+**Total Timeline**: Approximately 8.5 months to build complete content & community team (allowing for overlap in hiring processes)
 
 ---
 
@@ -243,6 +244,61 @@ See: `community-cross-teams/marketing/Content-Marketing.md`
 
 ---
 
+## 5️⃣ Fifth Hire: Technical Community Manager - Developer Community
+
+### Overview
+**Why Fifth?** After the content creation and distribution team is operational (Strategist, Video Editor, Graphic Designer, Content Marketing Specialist), the Technical Community Manager orchestrates the developer community around this content. This specialized role requires both the content foundation and product maturity to create meaningful bi-directional feedback loops between developers and the product team.
+
+### Profile Summary
+| **Attribute**              | **Details**                                                                 |
+| -------------------------- | --------------------------------------------------------------------------- |
+| **Full Title**             | Technical Community Manager - Developer Community                           |
+| **Experience Required**    | 2+ years software development + 1+ years community management               |
+| **Education Required**     | Bachelor's in Computer Science, Software Engineering, or related field      |
+| **Entrepreneurial Req.**   | Proven track record of startup ventures or founding initiatives (required)  |
+| **Tool Mastery**           | Figma, Miro, Notion, ClickUp, Prezi, Canva, Photoshop (expert level)       |
+| **Automation Tools**       | HubSpot, Marketo, Mailchimp (marketing automation platforms)                |
+| **Key Skills**             | Community orchestration, process leadership, visual systems, automation     |
+| **Important Attributes**   | Entrepreneurial, technical credibility, independent execution               |
+| **Reports To**             | Head of Marketing / Chief Community Officer                                 |
+| **Manages**                | Community Coordinators, Content Interns, Volunteer Moderators               |
+| **Time to Hire**           | ~2 months                                                                   |
+
+### Why This Role Matters
+- **Developer Engagement**: Builds thriving community around ITQAN's Quranic technology APIs and developer tools
+- **Product Feedback**: Creates bi-directional feedback loops between developers and product team
+- **Community Activation**: Drives engagement through webinars, content, and automated workflows
+- **Process Orchestration**: Leads agile community development aligned with product team
+- **Visual Systems**: Creates clarity through visual documentation of complex processes
+- **Automation**: Scales community operations through automated workflows (60% target)
+- **Technical Credibility**: Engages developers authentically with engineering background
+
+### Key Responsibilities
+- Orchestrate developer community growth strategies and member activation
+- Facilitate weekly board meetings presenting measurable activation progress
+- Curate team inputs into technical articles with visual elements
+- Manage monthly guest webinars with community calibers presenting engaging topics
+- Lead agile community development processes aligned with product team scrum
+- Create and illustrate complex systems for cross-team communication
+- Design and implement email automation workflows and engagement sequences
+- Calculate and visualize community metrics (engagement, activation, growth)
+- Handle detailed tasks autonomously and deliver visualizable results
+
+### Success Criteria (First 90 Days)
+1. **Community Momentum**: Achieve 25% increase through hands-on execution
+2. **Automation**: Automate 60% of redundant operations to improve efficiency
+3. **Content Creation**: Coordinate 5 published technical articles, recycle into 15 social media carousels
+4. **Webinars**: Successfully manage monthly guest webinars with community calibers
+5. **Leadership**: Drive community management initiatives as central execution force
+6. **Visual Systems**: Create functioning bi-directional feedback system with clear documentation
+7. **Strategic Metrics**: Establish community OKRs and north star metrics aligned with business
+8. **Board Meetings**: Run weekly meetings showing measurable activation progress
+
+### Job Profile Reference
+See: `community-cross-teams/marketing/Technical-Community-Manager.md`
+
+---
+
 ## 🗓️ Hiring Timeline & Milestones
 
 ### Phased Rollout
@@ -268,8 +324,13 @@ Month 4.5-6.5: Content Marketing Specialist Hiring
 ├─ Week 5-6: Assessment, offer, onboarding
 └─ Week 7-8: Analytics and distribution optimization
 
-Month 7+: Full Team Operational
-└─ Content production machine fully operational
+Month 6.5-8.5: Technical Community Manager Hiring
+├─ Week 1-4: Job posting, portfolio review, technical assessment
+├─ Week 5-6: Assessment, offer, onboarding
+└─ Week 7-8: Community systems and automation setup
+
+Month 9+: Full Team Operational
+└─ Content production machine + developer community fully operational
 ```
 
 ### Key Milestones
@@ -280,7 +341,8 @@ Month 7+: Full Team Operational
 | 2-3       | Video Editor hired, workflows designed                     | Video content production begins                           |
 | 4-5       | Graphic Designer hired, brand identity launched            | Visual brand consistency achieved                         |
 | 6-7       | Content Marketing Specialist hired, analytics set up       | Full content cycle operational (create → distribute → measure) |
-| 7+        | Team optimization and scaling                              | Interns added, external partnerships activated            |
+| 8-9       | Technical Community Manager hired, automation deployed     | Developer community activation and feedback loops operational |
+| 9+        | Team optimization and scaling                              | Interns added, external partnerships activated            |
 
 ---
 
@@ -335,12 +397,13 @@ Month 7+: Full Team Operational
 
 ## 📋 Comprehensive Hiring Priority Table
 
-| **Role**                                        | **Hire Priority** | **Time to Hire** | **Start Month** | **Key AI Tools Required**                     | **Key Professional Tools**                  | **Experience** | **Important Attributes**         | **Strategic Notes**                                       |
+| **Role**                                        | **Hire Priority** | **Time to Hire** | **Start Month** | **Key AI/Automation Tools**                   | **Key Professional Tools**                  | **Experience** | **Important Attributes**         | **Strategic Notes**                                       |
 | ----------------------------------------------- | ----------------- | ---------------- | --------------- | --------------------------------------------- | ------------------------------------------- | -------------- | -------------------------------- | --------------------------------------------------------- |
 | **Content Strategist (AI-Driven)**              | 1st               | ~1 month         | Month 1         | ChatGPT, Jasper, Claude, Copy.ai              | Asana, Notion, Google Analytics             | 3-5 years      | Leadership, collaborative        | Sets direction, critical for alignment, manages team      |
 | **Video Editor / Motion Designer (AI-Enhanced)**| 2nd               | ~1.5 months      | Month 1.5-2.5   | Runway, Pika, Topaz Video AI                  | DaVinci Resolve (Fusion, Color)             | 2-4 years      | Creative, efficient, detail      | Integral for visual content, social media presence        |
 | **Graphic Designer / Visual Content Creator**   | 3rd               | ~2 months        | Month 2.5-4.5   | MidJourney, Stable Diffusion, Adobe Firefly   | Adobe Creative Suite (Ps, Ai, Id)           | 2-4 years      | Innovative, strong portfolio     | Supports brand identity, visual consistency               |
 | **Content Marketing Specialist (AI-Optimized)** | 4th               | ~2 months        | Month 4.5-6.5   | Metricool, Hootsuite, SEMrush, GA4            | Buffer, Mailchimp, WordPress                | 2-4 years      | Data-driven, communicative       | Ensures reach & engagement, proves ROI                    |
+| **Technical Community Manager**                 | 5th               | ~2 months        | Month 6.5-8.5   | HubSpot, Marketo, Mailchimp (automation)      | Figma, Miro, Notion, ClickUp, Prezi         | 2+ dev + 1+ CM | Entrepreneurial, technical       | Orchestrates dev community, product feedback loops        |
 
 ---
 
@@ -437,6 +500,7 @@ Month 7+: Full Team Operational
 - [Video Editor / Motion Designer](community-cross-teams/marketing/Video-Editor-Motion-Designer.md)
 - [Graphic Designer / Visual Content Creator](community-cross-teams/marketing/Graphic-Designer-Visual-Content-Creator.md)
 - [Content Marketing Specialist](community-cross-teams/marketing/Content-Marketing.md)
+- [Technical Community Manager - Developer Community](community-cross-teams/marketing/Technical-Community-Manager.md)
 
 ### Organizational Context
 - [ITQAN Community Organizational Chart](map-itqan-community-org-chart.canvas)
