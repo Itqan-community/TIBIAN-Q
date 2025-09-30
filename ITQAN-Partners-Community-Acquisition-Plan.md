@@ -35,7 +35,7 @@ The orchestration engine serves as the central nervous system, enabling:
 - **Workflow Automation**: Triggers partner tasks based on content calendar, product launches, and community events
 - **Progress Tracking**: Real-time monitoring of partner deliverables and deadlines
 - **Quality Control**: Automated reviews and approval workflows before publication
-- **Performance Analytics**: Tracks partner output, quality, turnaround time, and ROI
+- **Performance Analytics**: Tracks partner output, quality, and turnaround time
 - **Resource Optimization**: Balances workload across partner network to maximize efficiency
 
 ---
@@ -60,7 +60,6 @@ The orchestration engine serves as the central nervous system, enabling:
 - **Cultural Sensitivity**: Understanding of Quranic content and Islamic values
 - **Scalability**: Can handle 10-20 content pieces per month
 - **Turnaround Time**: 3-5 day average for standard content pieces
-- **Pricing**: Competitive rates aligned with startup budgets
 
 #### Sourcing Channels
 1. **Islamic Creative Networks**
@@ -89,15 +88,13 @@ The orchestration engine serves as the central nervous system, enabling:
 3. **Islamic Content Check**: Review understanding of Quranic terminology and sensitivity
 4. **Turnaround Test**: Measure delivery speed and reliability
 5. **Integration Test**: Onboard to orchestration engine and test workflow
-6. **Pricing Negotiation**: Establish retainer or per-project rates
-7. **Trial Period**: 1-month trial with defined deliverables before long-term commitment
+6. **Trial Period**: 1-month trial with defined deliverables before long-term commitment
 
 #### Success Metrics
 - **Output Volume**: 20-30 content pieces per month per agency
 - **Quality Score**: 90%+ approval rate on first submission
 - **Turnaround Time**: Average 3-5 days per piece
 - **Cultural Accuracy**: Zero sensitivity issues or corrections needed
-- **Cost Efficiency**: 20-30% lower cost per piece than in-house
 - **Scalability**: Ability to scale up 2x during product launches
 
 ---
@@ -161,7 +158,6 @@ The orchestration engine serves as the central nervous system, enabling:
 - **Bug Rate**: <5% critical bugs in production
 - **Response Time**: <24 hours for communication
 - **Deadline Adherence**: 90%+ on-time delivery
-- **Cost Efficiency**: 30-40% lower than full-time hire
 
 ---
 
@@ -284,8 +280,6 @@ The orchestration engine serves as the central nervous system, enabling:
 - **Email Performance**: 25%+ open rate, 5%+ click rate on campaigns
 - **Lead Generation**: 15%+ increase in qualified leads per month
 - **Conversion Optimization**: 10%+ improvement in conversion rates
-- **Cost Efficiency**: 30%+ lower cost per acquisition than previous methods
-- **ROI**: 3:1 minimum return on marketing spend
 
 ---
 
@@ -326,7 +320,6 @@ The orchestration engine serves as the central nervous system, enabling:
 1. **Task Assignment**: Engine automatically assigns tasks to best-fit partner based on:
    - Availability and current workload
    - Expertise and past performance
-   - Cost and budget constraints
    - Turnaround time requirements
 
 2. **Progress Tracking**: Real-time monitoring of:
@@ -344,58 +337,31 @@ The orchestration engine serves as the central nervous system, enabling:
 4. **Performance Analytics**: Continuous monitoring of:
    - Delivery time vs. deadline
    - Quality score (approval rate)
-   - Cost per deliverable
    - Partner utilization rate
-   - ROI per partner
 
 ### Partner Communication Protocols
 
 - **Onboarding**: 1-hour kickoff call, documentation access, orchestration engine training
 - **Regular Check-ins**: Bi-weekly calls with high-volume partners
 - **Performance Reviews**: Monthly review of metrics and feedback
-- **Payment Terms**: Net 15 or Net 30 based on agreement
 - **Response Time Expectation**: Partners must respond within 24 hours
 - **Escalation Path**: Clear process for urgent requests or blockers
 
 ### Contract & Legal
 
-- **Service Agreements**: Standard SOW template with scope, deliverables, pricing
+- **Service Agreements**: Standard SOW template with scope, deliverables, and terms
 - **NDA**: Required for all partners accessing ITQAN resources
 - **IP Ownership**: Clear ownership of work product by ITQAN
 - **Termination Clause**: 30-day notice for either party
 - **Performance Standards**: Defined quality and delivery metrics
-- **Payment Terms**: Clear invoicing and payment schedule
 
 ---
 
-## Budget & ROI Projections
-
-### Partner Investment (Annual)
-
-| **Partner Category** | **Partners** | **Monthly Cost/Partner** | **Annual Total** |
-|---------------------|--------------|-------------------------|-----------------|
-| Content Creation | 5 | $2,000 - $4,000 | $120,000 - $240,000 |
-| Development | 5 | $5,000 - $8,000 | $300,000 - $480,000 |
-| Community Management | 5 | $1,500 - $2,500 | $90,000 - $150,000 |
-| Marketing Automation | 5 | $2,500 - $4,000 | $150,000 - $240,000 |
-| **Total Annual** | **20** | - | **$660,000 - $1,110,000** |
-
-### ROI Comparison: Partners vs Full-Time Hires
-
-| **Metric** | **Partner Model** | **Full-Time Model** | **Savings** |
-|-----------|------------------|-------------------|-------------|
-| Annual Cost (20 people) | $660K - $1.11M | $1.2M - $2M | 35-45% |
-| Onboarding Time | 1-2 weeks | 1-3 months | 75% faster |
-| Scalability | Instant (add partners) | 3-6 months (recruiting) | 90% faster |
-| Flexibility | High (scale up/down) | Low (fixed headcount) | ∞ |
-| Overhead | Minimal | Benefits, office, equipment | 60% less |
-
-### Expected Business Impact
+## Expected Business Impact
 
 - **Content Velocity**: 100+ content pieces per month (vs 20-30 in-house)
 - **Feature Velocity**: 6-10 features shipped per month (vs 2-3 in-house)
 - **Community Growth**: 30%+ monthly growth (vs 10% in-house)
-- **Marketing Efficiency**: 40% lower cost per acquisition
 - **Time to Market**: 3x faster for new initiatives
 
 ---
@@ -427,7 +393,6 @@ The orchestration engine serves as the central nervous system, enabling:
 |-----------|----------|--------------------------|
 | First-Pass Approval Rate | 90%+ | Monthly |
 | On-Time Delivery Rate | 90%+ | Weekly |
-| Cost per Deliverable | 30% below in-house | Monthly |
 | Partner Satisfaction (NPS) | 50+ | Quarterly |
 
 ### Business Impact
@@ -437,7 +402,6 @@ The orchestration engine serves as the central nervous system, enabling:
 | Community Growth Rate | 30%+ monthly | Monthly |
 | Product Adoption Rate | 25%+ quarterly | Quarterly |
 | Content-Driven Conversions | 40%+ of total signups | Monthly |
-| ROI on Partner Investment | 3:1 minimum | Quarterly |
 
 ---
 
@@ -451,7 +415,6 @@ The orchestration engine serves as the central nervous system, enabling:
 | Partner Attrition | Loss of capacity | Build 5 partners per category (redundancy) |
 | Cultural Sensitivity Issues | Brand damage | Thorough vetting, Islamic content training, review process |
 | Communication Breakdown | Delays, misalignment | Clear protocols, orchestration engine, regular check-ins |
-| Cost Overruns | Budget strain | Fixed pricing agreements, monthly budget monitoring |
 | IP/Legal Issues | Legal disputes | Strong contracts, NDAs, IP clauses |
 
 ### Contingency Planning
@@ -459,7 +422,6 @@ The orchestration engine serves as the central nervous system, enabling:
 - **Backup Partners**: Always maintain 1-2 backup partners per category
 - **Emergency Protocols**: Fast-track onboarding process for urgent needs
 - **Performance Buffer**: Plan for 80% utilization (20% buffer for underperformance)
-- **Budget Reserve**: Maintain 15-20% budget reserve for unexpected costs
 
 ---
 

@@ -282,7 +282,7 @@ The Partner Manager is responsible for **managing partner relationships, onboard
 - Resolve ambiguities and blockers quickly
 
 #### Performance Monitoring & Optimization
-- Track partner performance metrics (quality, timeliness, cost)
+- Track partner performance metrics (quality, timeliness)
 - Identify underperforming partners and address issues
 - Recognize and reward high-performing partners
 - Optimize partner workload distribution for efficiency
@@ -327,7 +327,6 @@ The Partner Manager is responsible for **managing partner relationships, onboard
 - **Partner Satisfaction**: 4.5/5 partner NPS score
 - **Quality Score**: 95%+ first-pass approval rate
 - **Partner Retention**: 85%+ annual partner retention
-- **Cost Efficiency**: Maintain or reduce cost per deliverable over time
 
 ### Commitment Required
 
@@ -525,29 +524,27 @@ All volunteers and interns receive comprehensive training on the **smart orchest
 
 ---
 
-## Budget & Resources
+## Resources & Support
 
-### Minimal Budget Model
+### Tools & Infrastructure
 
-Unlike traditional hiring, this volunteer/intern model requires **minimal financial investment**:
+This volunteer/intern model requires access to the following tools and resources:
 
-| **Expense Category** | **Annual Cost** | **Notes** |
-|---------------------|-----------------|----------|
-| **Orchestration Engine** | $5,000 - $10,000 | Notion, ClickUp, automation tools |
-| **Training & Development** | $2,000 - $5,000 | Courses, certifications, learning resources |
-| **Recognition & Rewards** | $3,000 - $5,000 | Certificates, swag, appreciation gifts |
-| **Volunteer Retreats** | $5,000 - $10,000 | Annual or bi-annual team gatherings |
-| **Total Annual** | **$15,000 - $30,000** | **vs $1M+ for full-time hires** |
+| **Resource Category** | **Tools** |
+|---------------------|-----------|
+| **Orchestration Engine** | Notion, ClickUp, or similar automation tools |
+| **Training & Development** | Courses, certifications, learning resources |
+| **Recognition & Rewards** | Certificates, appreciation gifts, community spotlight |
+| **Volunteer Gatherings** | Virtual or in-person team retreats (annual or bi-annual) |
 
-### ROI Comparison: Volunteers/Interns vs Full-Time Hires
+### Model Advantages
 
-| **Metric** | **Volunteer/Intern Model** | **Full-Time Hire Model** | **Savings** |
-|-----------|---------------------------|-------------------------|-------------|
-| Annual Cost (30 people) | $15K - $30K | $900K - $1.5M | 98% |
-| Recruitment Time | Ongoing, no rush | 3-6 months per role | Flexible |
-| Commitment Flexibility | 6-month increments | Multi-year contracts | High |
-| Mission Alignment | Extremely high | Variable | Stronger |
-| Overhead | Minimal | Office, benefits, equipment | 95% less |
+| **Aspect** | **Volunteer/Intern Model** | **Full-Time Hire Model** |
+|-----------|---------------------------|-------------------------|
+| Recruitment Timeline | Ongoing, no rush | 3-6 months per role |
+| Commitment Flexibility | 6-month increments | Multi-year contracts |
+| Mission Alignment | Extremely high | Variable |
+| Overhead | Minimal | Office, benefits, equipment |
 
 ---
 
