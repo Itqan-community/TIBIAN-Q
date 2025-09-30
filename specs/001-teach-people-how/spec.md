@@ -55,7 +55,7 @@ When creating this spec from a user prompt:
 ## User Scenarios & Testing *(mandatory)*
 
 ### Primary User Story
-As a contributor managing Quranic Technologies Map data through Obsidian and CLI, I need clear guidance on how to commit changes only to my current map branch without accidentally affecting other branches or creating unnecessary branches. As a project maintainer, I need to enforce branch creation policies that prevent LLMs from creating branches arbitrarily and ensure all branch work aligns with the defined sub-map structure (industry-players, open-source-assets, itqan-products).
+As a contributor managing Quranic Technologies Map data through Obsidian and CLI, I need clear guidance on how to commit changes only to my current map branch without accidentally affecting other branches or creating unnecessary branches. As a project maintainer, I need to enforce branch creation policies that prevent LLMs from creating branches arbitrarily and ensure all branch work aligns with the defined sub-map structure (industry-players, open-source-assets, itqan-products, quran-apps-directory).
 
 ### Acceptance Scenarios
 1. **Given** a contributor is working on the Industry Players map, **When** they commit changes via CLI, **Then** only the `map/industry-players` branch is updated and no other branches are affected
@@ -78,11 +78,11 @@ As a contributor managing Quranic Technologies Map data through Obsidian and CLI
 **Documentation Requirements**:
 - **FR-001**: System MUST provide clear CLI commit guidelines in README.md showing how to commit only to current branch
 - **FR-002**: Documentation MUST include step-by-step examples for common CLI workflows (commit, push, branch switching)
-- **FR-003**: Documentation MUST clearly state the three allowed map branches and their purposes
+- **FR-003**: Documentation MUST clearly state the four allowed map branches and their purposes
 - **FR-004**: Documentation MUST include troubleshooting section for common branch-related mistakes
 
 **Branch Policy Requirements**:
-- **FR-005**: Constitution MUST explicitly define the allowed branch structure (main + 3 map branches only)
+- **FR-005**: Constitution MUST explicitly define the allowed branch structure (main + 4 map branches only)
 - **FR-006**: Constitution MUST include principle prohibiting arbitrary branch creation by LLMs
 - **FR-007**: Constitution MUST specify when new branches are allowed (only by human maintainers for specific needs)
 - **FR-008**: Documentation MUST include LLM behavioral constraints regarding branch operations
@@ -100,7 +100,7 @@ As a contributor managing Quranic Technologies Map data through Obsidian and CLI
 
 ### Key Entities *(include if feature involves data)*
 
-- **Map Branch**: One of three predefined branches (map/industry-players, map/open-source-assets, map/itqan-products) representing a sub-map of the main Quranic Technologies Map
+- **Map Branch**: One of four predefined branches (map/industry-players, map/open-source-assets, map/itqan-products, map/quran-apps-directory) representing a sub-map of the main Quranic Technologies Map
 - **Main Branch**: The integrated, stable state of all maps; protected from direct commits
 - **CLI Workflow**: The sequence of git commands used to check branch status, switch branches, commit changes, and push updates
 - **LLM Agent**: An AI assistant operating within the project that must respect branch constraints and not create branches autonomously

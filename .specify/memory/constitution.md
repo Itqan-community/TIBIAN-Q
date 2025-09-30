@@ -1,19 +1,22 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version Change: (new constitution) → 1.0.0
-Modified Principles: N/A (initial creation)
+Version Change: 1.0.1 → 1.1.0
+Modified Principles: N/A
 Added Sections:
-  - Core Principles (5 principles defined)
-  - Data Management Tools
-  - Development Workflow
-  - Governance
-Removed Sections: N/A (initial creation)
+  - Principle VI: Automatic Protocol Propagation (new principle)
+  - Principle VII: Streamlined Commit Workflow (new principle)
+  - Updated Data Management Tools section with quran-apps-directory type
+Removed Sections: N/A
 Templates Requiring Updates:
-  ✅ plan-template.md - references constitution check (no changes needed)
-  ✅ spec-template.md - no constitution-specific constraints (no changes needed)
-  ✅ tasks-template.md - aligns with TDD and branching strategy (no changes needed)
-Follow-up TODOs: Update README.md with branching strategy hint
+  ✅ plan-template.md - no changes needed (protocols already support dynamic map detection)
+  ✅ spec-template.md - no changes needed
+  ✅ tasks-template.md - no changes needed
+  ✅ README.md - already reflects current map structure
+  ⚠ .specify/scripts/ - may need update to support auto-commit and auto-propagation
+Follow-up TODOs:
+  - Implement automation script for protocol propagation when maps are added
+  - Implement auto-commit functionality for governance updates
 -->
 
 # TIBIAN-Q Constitution
@@ -21,12 +24,12 @@ Follow-up TODOs: Update README.md with branching strategy hint
 ## Core Principles
 
 ### I. Obsidian-Driven Data Management
-All project data, including maps of industry players, open source assets, and ITQAN products, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
+All project data, including maps of industry players, open source assets, ITQAN products, and Quran apps directory, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
 
 **Rationale**: Obsidian provides a robust knowledge management system that allows for interconnected data representation, making it ideal for mapping complex relationships between Quranic technology entities. This ensures data consistency and leverages Obsidian's powerful features for visualization and navigation.
 
 ### II. Branch-Based Versioning Strategy
-Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
+Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
 
 **Rationale**: Branch-based versioning enables parallel development of different map components while maintaining isolation and clear history. This approach supports independent evolution of each map while providing merge points for integration.
 
@@ -35,6 +38,7 @@ Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source
 - `map/industry-players` - Industry Players Map
 - `map/open-source-assets` - Open Source Assets Map
 - `map/itqan-products` - ITQAN Products Map
+- `map/quran-apps-directory` - Quran Apps Directory Map
 
 ### III. Documentation-First Approach
 All features, changes, and architectural decisions MUST be documented before implementation. Documentation SHALL be written in Markdown format and stored within the `.specify/` directory structure. Changes to maps MUST include clear commit messages describing what entities were added, modified, or removed.
@@ -56,6 +60,40 @@ All map entries MUST include required metadata fields (name, category, descripti
 
 **Rationale**: High data quality is non-negotiable for a reference map. Enforcing validation ensures that the maps remain useful and reliable for all stakeholders.
 
+### VI. Automatic Protocol Propagation
+When a new sub-map is added to the project (e.g., added to README.md), the protocol MUST automatically propagate updates across all governance documents. This includes:
+- Constitution MUST be updated with the new map branch reference
+- README.md MUST reflect the new branch in branching strategy
+- All feature specifications referencing map structure MUST be updated
+- Branch naming conventions MUST be automatically extended
+
+**Rationale**: Manual propagation of map additions across multiple documents is error-prone and creates inconsistency. Automatic propagation ensures that all governance artifacts remain synchronized and reduces cognitive overhead for maintainers. This principle enforces the DRY (Don't Repeat Yourself) principle at the governance level.
+
+**Implementation Requirements**:
+- Detection mechanism to identify when README.md map list changes
+- Automated script to update constitution, specs, and templates
+- Validation to ensure all references are updated consistently
+
+### VII. Streamlined Commit Workflow
+Governance changes (constitution updates, README updates, spec updates) MUST be automatically committed without requiring explicit commit commands. When governance documents are updated through automated processes or LLM assistance, the system MUST:
+- Stage all governance file changes automatically
+- Generate appropriate conventional commit messages
+- Commit changes with proper attribution
+- Provide commit confirmation to the user
+
+**Rationale**: Requiring manual commits for every governance change creates friction and interrupts workflow. Since governance updates follow strict patterns and conventions, they can be safely automated. This reduces cognitive load and ensures consistency in commit messages while maintaining full audit trail through git history.
+
+**Scope**:
+- Applies to: `.specify/memory/constitution.md`, `README.md`, `specs/*/spec.md`
+- Does NOT apply to: Data files, implementation code, or user-facing content
+- User MUST retain explicit control over: Pushing to remote, merging branches, creating PRs
+
+**Safety Constraints**:
+- Auto-commit only occurs when validation passes
+- Changes must be reviewable via `git log` and `git diff`
+- User can revert auto-commits using standard git commands
+- Auto-commit messages must clearly indicate automation source
+
 ## Data Management Tools
 
 **Primary Tool**: Obsidian (v1.0+)
@@ -68,13 +106,14 @@ All map entries MUST include required metadata fields (name, category, descripti
 - Branch-based workflow for each sub-map
 - Conventional commit messages
 - Pull request workflow for merging to main
+- Automated governance commits (Principle VII)
 
 **Required Metadata Fields** (YAML frontmatter in each map entry):
 ```yaml
 ---
 name: [Entity Name]
 category: [Category]
-type: [industry-player|open-source|itqan-product]
+type: [industry-player|open-source|itqan-product|quran-apps-directory]
 status: [active|deprecated|archived]
 url: [Primary URL if applicable]
 description: [Brief description]
@@ -103,7 +142,7 @@ related: [[Link to Related Entities]]
    - Check for broken links
    - Verify metadata completeness
 
-4. **Commit changes**:
+4. **Commit changes** (automatic for governance, manual for data):
    ```bash
    git add .
    git commit -m "<type>(<scope>): <description>"
@@ -118,6 +157,23 @@ related: [[Link to Related Entities]]
    - PR must include summary of changes
    - Data quality validation must pass
    - At least one reviewer approval required
+
+### Adding a New Sub-Map
+
+When adding a new sub-map to the project:
+
+1. **Update README.md** with the new map name in the list
+2. **Trigger automatic protocol propagation** (Principle VI):
+   - Constitution is automatically updated
+   - Branch naming conventions are extended
+   - Relevant specs are updated
+   - Changes are auto-committed (Principle VII)
+3. **Create the map branch**:
+   ```bash
+   git checkout -b map/[new-map-name]
+   git push -u origin map/[new-map-name]
+   ```
+4. **Initialize map structure in Obsidian**
 
 ### Branch Synchronization
 
@@ -140,12 +196,14 @@ Amendments to this constitution require:
 3. Approval from project maintainers
 4. Migration plan for existing data/processes if needed
 5. Version increment following semantic versioning rules
+6. Automatic propagation of changes to dependent documents (Principle VI)
 
 ### Compliance and Review
 - All pull requests MUST be reviewed for constitutional compliance
 - Map quality reviews MUST be conducted quarterly
 - Branch strategy and data quality metrics MUST be tracked
 - Any proposed complexity additions MUST be justified against the simplicity principle
+- Automated governance updates MUST be reviewed in quarterly audits
 
 ### Version Control
 - Constitution uses semantic versioning: MAJOR.MINOR.PATCH
@@ -153,4 +211,4 @@ Amendments to this constitution require:
 - MINOR: New principles or significant guidance additions
 - PATCH: Clarifications, corrections, minor updates
 
-**Version**: 1.0.0 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30
+**Version**: 1.1.0 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30

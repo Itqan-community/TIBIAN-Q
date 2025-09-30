@@ -5,6 +5,7 @@ TIBIAN Quranic Technologies Map
 - Industry Players Map.
 - Open Source Assets Map.
 - ITQAN Products Map.
+- Quran Apps Directory Map.
 
 ## Branching Strategy
 
@@ -14,6 +15,7 @@ This project uses a **branch-based versioning strategy** where each sub-map has 
 - `map/industry-players` - Industry Players Map development
 - `map/open-source-assets` - Open Source Assets Map development
 - `map/itqan-products` - ITQAN Products Map development
+- `map/quran-apps-directory` - Quran Apps Directory Map development
 
 ### Working with Maps
 
