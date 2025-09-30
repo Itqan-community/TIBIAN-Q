@@ -1,21 +1,20 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version Change: 1.0.1 → 1.1.0
-Modified Principles: N/A
-Added Sections:
-  - Principle VI: Automatic Protocol Propagation (new principle)
-  - Principle VII: Streamlined Commit Workflow (new principle)
-  - Updated Data Management Tools section with quran-apps-directory type
+Version Change: 1.1.0 → 1.1.1
+Modified Principles:
+  - Principle VI: Automatic Protocol Propagation - added automatic Git branch creation requirement
+Added Sections: N/A (patch update)
 Removed Sections: N/A
 Templates Requiring Updates:
-  ✅ plan-template.md - no changes needed (protocols already support dynamic map detection)
+  ✅ plan-template.md - no changes needed
   ✅ spec-template.md - no changes needed
   ✅ tasks-template.md - no changes needed
-  ✅ README.md - already reflects current map structure
-  ⚠ .specify/scripts/ - may need update to support auto-commit and auto-propagation
+  ✅ README.md - no changes needed
+  ⚠ .specify/scripts/ - requires update to support automatic branch creation
 Follow-up TODOs:
-  - Implement automation script for protocol propagation when maps are added
+  - Implement automation script to create and push Git branches when maps are added
+  - Update protocol propagation script to include branch creation logic
   - Implement auto-commit functionality for governance updates
 -->
 
@@ -61,18 +60,21 @@ All map entries MUST include required metadata fields (name, category, descripti
 **Rationale**: High data quality is non-negotiable for a reference map. Enforcing validation ensures that the maps remain useful and reliable for all stakeholders.
 
 ### VI. Automatic Protocol Propagation
-When a new sub-map is added to the project (e.g., added to README.md), the protocol MUST automatically propagate updates across all governance documents. This includes:
+When a new sub-map is added to the project (e.g., added to README.md), the protocol MUST automatically propagate updates across all governance documents AND create the corresponding Git branch. This includes:
 - Constitution MUST be updated with the new map branch reference
 - README.md MUST reflect the new branch in branching strategy
 - All feature specifications referencing map structure MUST be updated
 - Branch naming conventions MUST be automatically extended
+- Corresponding Git branch MUST be automatically created and pushed to remote
 
-**Rationale**: Manual propagation of map additions across multiple documents is error-prone and creates inconsistency. Automatic propagation ensures that all governance artifacts remain synchronized and reduces cognitive overhead for maintainers. This principle enforces the DRY (Don't Repeat Yourself) principle at the governance level.
+**Rationale**: Manual propagation of map additions across multiple documents is error-prone and creates inconsistency. Automatic propagation ensures that all governance artifacts remain synchronized and reduces cognitive overhead for maintainers. This principle enforces the DRY (Don't Repeat Yourself) principle at the governance level. Automatic branch creation ensures the branch structure stays in sync with the documented map structure, eliminating the possibility of missing branches.
 
 **Implementation Requirements**:
 - Detection mechanism to identify when README.md map list changes
 - Automated script to update constitution, specs, and templates
-- Validation to ensure all references are updated consistently
+- Automated Git branch creation with naming convention: `map/[map-name]`
+- Automatic push of new branch to remote repository
+- Validation to ensure all references and branches are created consistently
 
 ### VII. Streamlined Commit Workflow
 Governance changes (constitution updates, README updates, spec updates) MUST be automatically committed without requiring explicit commit commands. When governance documents are updated through automated processes or LLM assistance, the system MUST:
@@ -167,13 +169,12 @@ When adding a new sub-map to the project:
    - Constitution is automatically updated
    - Branch naming conventions are extended
    - Relevant specs are updated
+   - Git branch `map/[new-map-name]` is automatically created
+   - New branch is automatically pushed to remote
    - Changes are auto-committed (Principle VII)
-3. **Create the map branch**:
-   ```bash
-   git checkout -b map/[new-map-name]
-   git push -u origin map/[new-map-name]
-   ```
-4. **Initialize map structure in Obsidian**
+3. **Initialize map structure in Obsidian** on the new branch
+
+**Note**: The map branch creation and push (formerly step 3) is now automated as part of the protocol propagation in step 2.
 
 ### Branch Synchronization
 
@@ -211,4 +212,4 @@ Amendments to this constitution require:
 - MINOR: New principles or significant guidance additions
 - PATCH: Clarifications, corrections, minor updates
 
-**Version**: 1.1.0 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30
+**Version**: 1.1.1 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30
