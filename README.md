@@ -6,6 +6,7 @@ TIBIAN Quranic Technologies Map
 - Open Source Assets Map.
 - ITQAN Products Map.
 - Quran Apps Directory Map.
+- ITQAN Community Organizational Chart Map.
 
 ## How It Works
 
@@ -39,6 +40,7 @@ This project uses a **branch-based versioning strategy** where each sub-map has 
 - `map/open-source-assets` - Open Source Assets Map development
 - `map/itqan-products` - ITQAN Products Map development
 - `map/quran-apps-directory` - Quran Apps Directory Map development
+- `map/itqan-community-org-chart` - ITQAN Community Organizational Chart Map development
 
 ## Working with Maps
 

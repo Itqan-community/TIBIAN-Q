@@ -1,21 +1,21 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version Change: 1.1.0 → 1.1.1
+Version Change: 1.1.1 → 1.1.2
 Modified Principles:
-  - Principle VI: Automatic Protocol Propagation - added automatic Git branch creation requirement
+  - Principle I: Obsidian-Driven Data Management - added ITQAN Community Organizational Chart map
+  - Principle II: Branch-Based Versioning Strategy - added map/itqan-community-org-chart branch
 Added Sections: N/A (patch update)
 Removed Sections: N/A
 Templates Requiring Updates:
   ✅ plan-template.md - no changes needed
   ✅ spec-template.md - no changes needed
   ✅ tasks-template.md - no changes needed
-  ✅ README.md - no changes needed
-  ⚠ .specify/scripts/ - requires update to support automatic branch creation
+  ✅ README.md - updated with new map
+  ✅ specs/001-teach-people-how/spec.md - updated with new map
 Follow-up TODOs:
-  - Implement automation script to create and push Git branches when maps are added
-  - Update protocol propagation script to include branch creation logic
-  - Implement auto-commit functionality for governance updates
+  - Create and push map/itqan-community-org-chart branch
+  - Initialize map structure in Obsidian
 -->
 
 # TIBIAN-Q Constitution
@@ -23,12 +23,12 @@ Follow-up TODOs:
 ## Core Principles
 
 ### I. Obsidian-Driven Data Management
-All project data, including maps of industry players, open source assets, ITQAN products, and Quran apps directory, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
+All project data, including maps of industry players, open source assets, ITQAN products, Quran apps directory, and ITQAN community organizational chart, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
 
 **Rationale**: Obsidian provides a robust knowledge management system that allows for interconnected data representation, making it ideal for mapping complex relationships between Quranic technology entities. This ensures data consistency and leverages Obsidian's powerful features for visualization and navigation.
 
 ### II. Branch-Based Versioning Strategy
-Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
+Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory, ITQAN Community Organizational Chart) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
 
 **Rationale**: Branch-based versioning enables parallel development of different map components while maintaining isolation and clear history. This approach supports independent evolution of each map while providing merge points for integration.
 
@@ -38,6 +38,7 @@ Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source
 - `map/open-source-assets` - Open Source Assets Map
 - `map/itqan-products` - ITQAN Products Map
 - `map/quran-apps-directory` - Quran Apps Directory Map
+- `map/itqan-community-org-chart` - ITQAN Community Organizational Chart Map
 
 ### III. Documentation-First Approach
 All features, changes, and architectural decisions MUST be documented before implementation. Documentation SHALL be written in Markdown format and stored within the `.specify/` directory structure. Changes to maps MUST include clear commit messages describing what entities were added, modified, or removed.
@@ -115,7 +116,7 @@ Governance changes (constitution updates, README updates, spec updates) MUST be 
 ---
 name: [Entity Name]
 category: [Category]
-type: [industry-player|open-source|itqan-product|quran-apps-directory]
+type: [industry-player|open-source|itqan-product|quran-apps-directory|itqan-community-org-chart]
 status: [active|deprecated|archived]
 url: [Primary URL if applicable]
 description: [Brief description]
@@ -212,4 +213,4 @@ Amendments to this constitution require:
 - MINOR: New principles or significant guidance additions
 - PATCH: Clarifications, corrections, minor updates
 
-**Version**: 1.1.1 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30
+**Version**: 1.1.2 | **Ratified**: 2025-09-30 | **Last Amended**: 2025-09-30
