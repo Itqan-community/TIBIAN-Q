@@ -11,14 +11,17 @@
             "id": "e2664dfc7621feab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "map-itqan-community-org-chart.canvas",
+                "viewState": {
+                  "x": -1507.9669860268436,
+                  "y": -155.4379403480798,
+                  "zoom": -1.8122316648983632
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-layout-dashboard",
+              "title": "map-itqan-community-org-chart"
             }
           }
         ]
@@ -171,9 +174,41 @@
   },
   "active": "e2664dfc7621feab",
   "lastOpenFiles": [
+    "ITQAN-Volunteer-Intern-Orchestration-Plan.md",
+    "map-itqan-community-org-chart.canvas",
+    "Untitled.md",
+    "README.md",
+    "ITQAN-Partners-Community-Acquisition-Plan.md",
+    "ITQAN-Content-Team-Hiring-Plan.md",
+    "ITQAN-Partners-Community-Acquisition-Plan.md.tmp.2154.1759270481213",
+    "map-itqan-community-org-chart.canvas.tmp.2154.1759268625783",
+    "ITQAN-Content-Team-Hiring-Plan.md.tmp.2154.1759268546207",
+    "ITQAN-Content-Team-Hiring-Plan.md.tmp.2154.1759268517181",
+    "community-cross-teams/marketing/Community-Outreach.md",
+    "community-cross-teams/marketing/Technical-Community-Manager.md",
+    "community-cross-teams/marketing/Graphic-Designer-Visual-Content-Creator.md",
+    "community-cross-teams/marketing/Video-Editor-Motion-Designer.md",
+    "community-cross-teams/marketing/Content-Marketing.md",
+    "community-cross-teams/marketing/Social-Media-Manager.md",
+    "community-cross-teams/marketing/Digital-Marketing.md",
     "specs/001-teach-people-how/spec.md",
-    "specs/001-teach-people-how",
-    "specs",
-    "spec-kit-template-claude-sh-v0.0.54.zip"
+    "community-cross-teams/marketing/Content-Strategist.md",
+    "community-cross-teams/product/User-Research.md",
+    "community-cross-teams/product/Product-Strategy.md",
+    "community-cross-teams/product/Product-Manager.md",
+    "community-cross-teams/product/Product-Designer.md",
+    "community-cross-teams/outsourcing-partners/Freelancers.md",
+    "community-cross-teams/outsourcing-partners/External-Dev-Teams.md",
+    "community-cross-teams/outsourcing-partners/Design-Agencies.md",
+    "community-cross-teams/outsourcing-partners/Consulting-Partners.md",
+    "community-cross-teams/management/Strategic-Planning.md",
+    "community-cross-teams/management/Operations-Manager.md",
+    "community-cross-teams/management/Finance.md",
+    "community-cross-teams/product",
+    "community-cross-teams/outsourcing-partners",
+    "community-cross-teams/marketing",
+    "community-cross-teams/management",
+    "community-cross-teams/development",
+    "community-cross-teams/contributors-volunteers"
   ]
 }
