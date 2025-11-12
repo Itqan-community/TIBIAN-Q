@@ -55,7 +55,7 @@ When creating this spec from a user prompt:
 ## User Scenarios & Testing *(mandatory)*
 
 ### Primary User Story
-As a contributor managing Quranic Technologies Map data (including Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory, ITQAN Community Organizational Chart, and Quranic Apps Features) through Obsidian and CLI, I need comprehensive guidance on:
+As a contributor managing Quranic Technologies Map data (including Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory, ITQAN Human Resources, and Quranic Apps Features) through Obsidian and CLI, I need comprehensive guidance on:
 1. How to commit changes only to my current map branch without accidentally affecting other branches
 2. How the automatic protocol propagation works when adding new maps
 3. How automatic commits work for governance documents
@@ -122,7 +122,7 @@ As a project maintainer, I need documentation that clearly explains the entire a
 
 ### Key Entities *(include if feature involves data)*
 
-- **Map Branch**: One of the predefined branches (map/industry-players, map/open-source-assets, map/itqan-products, map/quran-apps-directory, map/itqan-community-org-chart, map/quranic-apps-features) representing a sub-map of the main Quranic Technologies Map
+- **Map Branch**: One of the predefined branches (map/industry-players, map/open-source-assets, map/itqan-products, map/quran-apps-directory, ITQAN-human-resources, map/quranic-apps-features) representing a sub-map of the main Quranic Technologies Map
 - **Main Branch**: The integrated, stable state of all maps; protected from direct commits
 - **CLI Workflow**: The sequence of git commands used to check branch status, switch branches, commit changes, and push updates
 - **LLM Agent**: An AI assistant operating within the project that must respect branch constraints and not create branches autonomously

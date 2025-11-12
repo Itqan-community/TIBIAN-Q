@@ -23,12 +23,12 @@ Follow-up TODOs:
 ## Core Principles
 
 ### I. Obsidian-Driven Data Management
-All project data, including maps of industry players, open source assets, ITQAN products, Quran apps directory, ITQAN community organizational chart, and Quranic apps features, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
+All project data, including maps of industry players, open source assets, ITQAN products, Quran apps directory, ITQAN human resources, and Quranic apps features, MUST be managed through Obsidian. Data entry, editing, and organization SHALL be performed within the Obsidian environment. The project structure MUST remain compatible with Obsidian's markdown-based system and support its linking, tagging, and graph features.
 
 **Rationale**: Obsidian provides a robust knowledge management system that allows for interconnected data representation, making it ideal for mapping complex relationships between Quranic technology entities. This ensures data consistency and leverages Obsidian's powerful features for visualization and navigation.
 
 ### II. Branch-Based Versioning Strategy
-Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory, ITQAN Community Organizational Chart, Quranic Apps Features) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
+Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source Assets, ITQAN Products, Quran Apps Directory, ITQAN Human Resources, Quranic Apps Features) MUST have its own dedicated Git branch. Versioning and change management SHALL be performed through CLI or Git Bash commands. The main branch represents the integrated, stable state of all maps.
 
 **Rationale**: Branch-based versioning enables parallel development of different map components while maintaining isolation and clear history. This approach supports independent evolution of each map while providing merge points for integration.
 
@@ -38,7 +38,7 @@ Each sub-map of the main Quranic Technologies Map (Industry Players, Open Source
 - `map/open-source-assets` - Open Source Assets Map
 - `map/itqan-products` - ITQAN Products Map
 - `map/quran-apps-directory` - Quran Apps Directory Map
-- `map/itqan-community-org-chart` - ITQAN Community Organizational Chart Map
+- `ITQAN-human-resources` - ITQAN Human Resources Map
 - `map/quranic-apps-features` - Quranic Apps Features Map
 
 ### III. Documentation-First Approach
@@ -117,7 +117,7 @@ Governance changes (constitution updates, README updates, spec updates) MUST be 
 ---
 name: [Entity Name]
 category: [Category]
-type: [industry-player|open-source|itqan-product|quran-apps-directory|itqan-community-org-chart|quranic-apps-features]
+type: [industry-player|open-source|itqan-product|quran-apps-directory|itqan-human-resources|quranic-apps-features]
 status: [active|deprecated|archived]
 url: [Primary URL if applicable]
 description: [Brief description]
