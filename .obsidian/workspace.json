@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "41166dfe195944dc",
+        "id": "b6fdd270a46893c5",
         "type": "tabs",
         "children": [
           {
-            "id": "e2664dfc7621feab",
+            "id": "d813e5cf5a86590a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "map-itqan-community-org-chart.canvas",
+                "file": "map-itqan-squad-based-pooling.canvas",
                 "viewState": {
-                  "x": -1507.9669860268436,
-                  "y": -155.4379403480798,
-                  "zoom": -1.8122316648983632
+                  "x": 6935.2520057876,
+                  "y": 1091.0892386872401,
+                  "zoom": -2.2381131956914
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "map-itqan-community-org-chart"
+              "title": "map-itqan-squad-based-pooling"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c20d89cb3a5f5306",
@@ -172,43 +173,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2664dfc7621feab",
+  "active": "d813e5cf5a86590a",
   "lastOpenFiles": [
-    "ITQAN-Volunteer-Intern-Orchestration-Plan.md",
+    "community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md",
+    "community-cross-teams/contributors-volunteers/Administrative-Coordinator/job-description.md",
+    "map-itqan-squad-based-pooling.canvas",
+    "community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md",
     "map-itqan-community-org-chart.canvas",
-    "Untitled.md",
+    "Untitled.canvas",
     "README.md",
-    "ITQAN-Partners-Community-Acquisition-Plan.md",
-    "ITQAN-Content-Team-Hiring-Plan.md",
-    "ITQAN-Partners-Community-Acquisition-Plan.md.tmp.2154.1759270481213",
-    "map-itqan-community-org-chart.canvas.tmp.2154.1759268625783",
-    "ITQAN-Content-Team-Hiring-Plan.md.tmp.2154.1759268546207",
-    "ITQAN-Content-Team-Hiring-Plan.md.tmp.2154.1759268517181",
-    "community-cross-teams/marketing/Community-Outreach.md",
-    "community-cross-teams/marketing/Technical-Community-Manager.md",
-    "community-cross-teams/marketing/Graphic-Designer-Visual-Content-Creator.md",
-    "community-cross-teams/marketing/Video-Editor-Motion-Designer.md",
-    "community-cross-teams/marketing/Content-Marketing.md",
-    "community-cross-teams/marketing/Social-Media-Manager.md",
-    "community-cross-teams/marketing/Digital-Marketing.md",
-    "specs/001-teach-people-how/spec.md",
-    "community-cross-teams/marketing/Content-Strategist.md",
-    "community-cross-teams/product/User-Research.md",
-    "community-cross-teams/product/Product-Strategy.md",
-    "community-cross-teams/product/Product-Manager.md",
-    "community-cross-teams/product/Product-Designer.md",
-    "community-cross-teams/outsourcing-partners/Freelancers.md",
-    "community-cross-teams/outsourcing-partners/External-Dev-Teams.md",
-    "community-cross-teams/outsourcing-partners/Design-Agencies.md",
-    "community-cross-teams/outsourcing-partners/Consulting-Partners.md",
-    "community-cross-teams/management/Strategic-Planning.md",
-    "community-cross-teams/management/Operations-Manager.md",
-    "community-cross-teams/management/Finance.md",
-    "community-cross-teams/product",
-    "community-cross-teams/outsourcing-partners",
-    "community-cross-teams/marketing",
-    "community-cross-teams/management",
-    "community-cross-teams/development",
-    "community-cross-teams/contributors-volunteers"
+    "community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Description.md",
+    "community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Description.md",
+    "community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md",
+    "community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md",
+    "community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md",
+    "community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md",
+    "community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md",
+    "community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md",
+    "community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md",
+    "community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md",
+    "community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md",
+    "community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md",
+    "community-cross-teams/HR/Employee-Relations-Volunteer/Employee-Relations-Volunteer_Job-Profile.md",
+    "community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Profile.md",
+    "community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md",
+    "community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md",
+    "community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md",
+    "community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md",
+    "community-cross-teams/management/Strategic-Planning-Volunteer/Strategic-Planning-Volunteer_Job-Profile.md",
+    "community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Profile.md",
+    "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
+    "community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md",
+    "community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer",
+    "community-cross-teams/Quranic-Content/Content-Verifier-Volunteer",
+    "community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer",
+    "community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer",
+    "community-cross-teams/HR/Volunteer-Coordinator",
+    "community-cross-teams/HR/Employee-Relations-Volunteer",
+    "community-cross-teams/HR/Training-Development-Volunteer",
+    "community-cross-teams/HR/Recruitment-Volunteer",
+    "community-cross-teams/development/QA-Testing-Volunteer",
+    "community-cross-teams/development/DevOps-Engineer-Volunteer"
   ]
 }

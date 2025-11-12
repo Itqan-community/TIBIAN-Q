@@ -3,9 +3,23 @@
     "allow": [
       "Bash(uv tool install:*)",
       "Bash(specify init:*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(mv:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(git rm:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "keynote"
+  ]
 }
