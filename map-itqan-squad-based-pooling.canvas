@@ -1,2175 +1,310 @@
 {
-	"nodes": [
-		{
-			"id": "title",
-			"type": "text",
-			"text": "# ITQAN Squad-Based Resource Pooling\n**Internal SQUADs (1) \u2194 Shared Resource Pool Departments (Many)**",
-			"x": 2800,
-			"y": -500,
-			"width": 1000,
-			"height": 150,
-			"color": "5"
-		},
-		{
-			"id": "squad-ratq",
-			"type": "text",
-			"text": "**Tools Directory RATQ**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 0,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-resources",
-			"type": "text",
-			"text": "**Resources Library**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 200,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-tilawat",
-			"type": "text",
-			"text": "**Tilawat**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 400,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-recitation",
-			"type": "text",
-			"text": "**Recitation Tech**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 600,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-qiraat",
-			"type": "text",
-			"text": "**Qiraat/LUBB**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 800,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-apps",
-			"type": "text",
-			"text": "**Apps Directory**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 1000,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "squad-drm",
-			"type": "text",
-			"text": "**Data & Relationship Management**\n\n_Internal SQUAD_",
-			"x": -1000,
-			"y": 1200,
-			"width": 300,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "pool-access",
-			"type": "text",
-			"text": "**\u2192 POOL ACCESS \u2192**\n\n_1-to-Many Relationship_\n\nAll SQUADs share\nall departments",
-			"x": -400,
-			"y": 500,
-			"width": 350,
-			"height": 180,
-			"color": "5"
-		},
-		{
-			"id": "dept-header-product",
-			"type": "text",
-			"text": "## Product Department\n**5 Role Types** | **Capacity Pool**",
-			"x": 320,
-			"y": 20,
-			"width": 1360,
-			"height": 100,
-			"color": "1"
-		},
-		{
-			"id": "stack-header-product-1",
-			"type": "text",
-			"text": "**Product Strategy**\n3\u00d7 capacity",
-			"x": 350,
-			"y": 160,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-product-1-copy0",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-1-copy1",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-1-copy2",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md",
-			"x": 860,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-product-2",
-			"type": "text",
-			"text": "**Product Manager**\n4\u00d7 capacity",
-			"x": 350,
-			"y": 450,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-product-2-copy0",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-2-copy1",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-2-copy2",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md",
-			"x": 860,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-2-copy3",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md",
-			"x": 1100,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-product-3",
-			"type": "text",
-			"text": "**User Research**\n3\u00d7 capacity",
-			"x": 350,
-			"y": 740,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-product-3-copy0",
-			"type": "file",
-			"file": "community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-3-copy1",
-			"type": "file",
-			"file": "community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-3-copy2",
-			"type": "file",
-			"file": "community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md",
-			"x": 860,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-product-4",
-			"type": "text",
-			"text": "**Product Designer**\n4\u00d7 capacity",
-			"x": 350,
-			"y": 1030,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-product-4-copy0",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-4-copy1",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-4-copy2",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md",
-			"x": 860,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-4-copy3",
-			"type": "file",
-			"file": "community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md",
-			"x": 1100,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-product-5",
-			"type": "text",
-			"text": "**Associate PM**\n2\u00d7 capacity",
-			"x": 350,
-			"y": 1320,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-product-5-copy0",
-			"type": "file",
-			"file": "community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Description.md",
-			"x": 380,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-product-5-copy1",
-			"type": "file",
-			"file": "community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Description.md",
-			"x": 620,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "dept-header-development",
-			"type": "text",
-			"text": "## Development Department\n**8 Role Types** | **Capacity Pool**",
-			"x": 1920,
-			"y": 20,
-			"width": 1360,
-			"height": 100,
-			"color": "2"
-		},
-		{
-			"id": "stack-header-development-6",
-			"type": "text",
-			"text": "**Frontend Dev**\n5\u00d7 capacity",
-			"x": 1950,
-			"y": 160,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-6-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-6-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-6-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-6-copy3",
-			"type": "file",
-			"file": "community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md",
-			"x": 2700,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-6-copy4",
-			"type": "file",
-			"file": "community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md",
-			"x": 2940,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-7",
-			"type": "text",
-			"text": "**Backend Dev**\n5\u00d7 capacity",
-			"x": 1950,
-			"y": 450,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-7-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-7-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-7-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-7-copy3",
-			"type": "file",
-			"file": "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
-			"x": 2700,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-7-copy4",
-			"type": "file",
-			"file": "community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md",
-			"x": 2940,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-8",
-			"type": "text",
-			"text": "**Mobile Dev**\n4\u00d7 capacity",
-			"x": 1950,
-			"y": 740,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-8-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-8-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-8-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-8-copy3",
-			"type": "file",
-			"file": "community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md",
-			"x": 2700,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-9",
-			"type": "text",
-			"text": "**DevOps**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 1030,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-9-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-9-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-9-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-10",
-			"type": "text",
-			"text": "**QA/Testing**\n4\u00d7 capacity",
-			"x": 1950,
-			"y": 1320,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-10-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-10-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-10-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-10-copy3",
-			"type": "file",
-			"file": "community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md",
-			"x": 2700,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-11",
-			"type": "text",
-			"text": "**AI Engineer**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 1610,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-11-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md",
-			"x": 1980,
-			"y": 1710,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-11-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md",
-			"x": 2220,
-			"y": 1710,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-11-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md",
-			"x": 2460,
-			"y": 1710,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-12",
-			"type": "text",
-			"text": "**Software Dev**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 1900,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-12-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md",
-			"x": 1980,
-			"y": 2000,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-12-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md",
-			"x": 2220,
-			"y": 2000,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-12-copy2",
-			"type": "file",
-			"file": "community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md",
-			"x": 2460,
-			"y": 2000,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-development-13",
-			"type": "text",
-			"text": "**Scrum Master**\n2\u00d7 capacity",
-			"x": 1950,
-			"y": 2190,
-			"width": 1300,
-			"height": 70,
-			"color": "2"
-		},
-		{
-			"id": "role-development-13-copy0",
-			"type": "file",
-			"file": "community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Description.md",
-			"x": 1980,
-			"y": 2290,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-development-13-copy1",
-			"type": "file",
-			"file": "community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Description.md",
-			"x": 2220,
-			"y": 2290,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "dept-header-marketing",
-			"type": "text",
-			"text": "## Marketing Department\n**5 Role Types** | **Capacity Pool**",
-			"x": 3520,
-			"y": 20,
-			"width": 1360,
-			"height": 100,
-			"color": "3"
-		},
-		{
-			"id": "stack-header-marketing-14",
-			"type": "text",
-			"text": "**Digital Marketing**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 160,
-			"width": 1300,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "role-marketing-14-copy0",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-14-copy1",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-14-copy2",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 260,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-marketing-15",
-			"type": "text",
-			"text": "**Content Strategist**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 450,
-			"width": 1300,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "role-marketing-15-copy0",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-15-copy1",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-15-copy2",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 550,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-marketing-16",
-			"type": "text",
-			"text": "**Video Editor**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 740,
-			"width": 1300,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "role-marketing-16-copy0",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-16-copy1",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-16-copy2",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 840,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-marketing-17",
-			"type": "text",
-			"text": "**Social Media**\n4\u00d7 capacity",
-			"x": 3550,
-			"y": 1030,
-			"width": 1300,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "role-marketing-17-copy0",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-17-copy1",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-17-copy2",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-17-copy3",
-			"type": "file",
-			"file": "community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md",
-			"x": 4300,
-			"y": 1130,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-marketing-18",
-			"type": "text",
-			"text": "**Graphics Designer**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 1320,
-			"width": 1300,
-			"height": 70,
-			"color": "3"
-		},
-		{
-			"id": "role-marketing-18-copy0",
-			"type": "file",
-			"file": "community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-18-copy1",
-			"type": "file",
-			"file": "community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-marketing-18-copy2",
-			"type": "file",
-			"file": "community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 1420,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "dept-header-management",
-			"type": "text",
-			"text": "## Management Department\n**3 Role Types** | **Capacity Pool**",
-			"x": 320,
-			"y": 2520,
-			"width": 1360,
-			"height": 100,
-			"color": "4"
-		},
-		{
-			"id": "stack-header-management-19",
-			"type": "text",
-			"text": "**Strategic Planning**\n2\u00d7 capacity",
-			"x": 350,
-			"y": 2660,
-			"width": 1300,
-			"height": 70,
-			"color": "4"
-		},
-		{
-			"id": "role-management-19-copy0",
-			"type": "file",
-			"file": "community-cross-teams/management/Strategic-Planning-Volunteer/Strategic-Planning-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-19-copy1",
-			"type": "file",
-			"file": "community-cross-teams/management/Strategic-Planning-Volunteer/Strategic-Planning-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-management-20",
-			"type": "text",
-			"text": "**Operations Manager**\n3\u00d7 capacity",
-			"x": 350,
-			"y": 2950,
-			"width": 1300,
-			"height": 70,
-			"color": "4"
-		},
-		{
-			"id": "role-management-20-copy0",
-			"type": "file",
-			"file": "community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md",
-			"x": 380,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-20-copy1",
-			"type": "file",
-			"file": "community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md",
-			"x": 620,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-20-copy2",
-			"type": "file",
-			"file": "community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md",
-			"x": 860,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-management-21",
-			"type": "text",
-			"text": "**Admin Coordinator**\n4\u00d7 capacity",
-			"x": 350,
-			"y": 3240,
-			"width": 1300,
-			"height": 70,
-			"color": "4"
-		},
-		{
-			"id": "role-management-21-copy0",
-			"type": "file",
-			"file": "community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md",
-			"x": 380,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-21-copy1",
-			"type": "file",
-			"file": "community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md",
-			"x": 620,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-21-copy2",
-			"type": "file",
-			"file": "community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md",
-			"x": 860,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-management-21-copy3",
-			"type": "file",
-			"file": "community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md",
-			"x": 1100,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "dept-header-hr",
-			"type": "text",
-			"text": "## HR Department\n**4 Role Types** | **Capacity Pool**",
-			"x": 1920,
-			"y": 2520,
-			"width": 1360,
-			"height": 100,
-			"color": "6"
-		},
-		{
-			"id": "stack-header-hr-22",
-			"type": "text",
-			"text": "**Recruitment**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 2660,
-			"width": 1300,
-			"height": 70,
-			"color": "6"
-		},
-		{
-			"id": "role-hr-22-copy0",
-			"type": "file",
-			"file": "community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-22-copy1",
-			"type": "file",
-			"file": "community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-22-copy2",
-			"type": "file",
-			"file": "community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-hr-23",
-			"type": "text",
-			"text": "**Training & Dev**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 2950,
-			"width": 1300,
-			"height": 70,
-			"color": "6"
-		},
-		{
-			"id": "role-hr-23-copy0",
-			"type": "file",
-			"file": "community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-23-copy1",
-			"type": "file",
-			"file": "community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-23-copy2",
-			"type": "file",
-			"file": "community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md",
-			"x": 2460,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-hr-24",
-			"type": "text",
-			"text": "**Employee Relations**\n2\u00d7 capacity",
-			"x": 1950,
-			"y": 3240,
-			"width": 1300,
-			"height": 70,
-			"color": "6"
-		},
-		{
-			"id": "role-hr-24-copy0",
-			"type": "file",
-			"file": "community-cross-teams/HR/Employee-Relations-Volunteer/Employee-Relations-Volunteer_Job-Profile.md",
-			"x": 1980,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-24-copy1",
-			"type": "file",
-			"file": "community-cross-teams/HR/Employee-Relations-Volunteer/Employee-Relations-Volunteer_Job-Profile.md",
-			"x": 2220,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-hr-25",
-			"type": "text",
-			"text": "**Volunteer Coord**\n3\u00d7 capacity",
-			"x": 1950,
-			"y": 3530,
-			"width": 1300,
-			"height": 70,
-			"color": "6"
-		},
-		{
-			"id": "role-hr-25-copy0",
-			"type": "file",
-			"file": "community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md",
-			"x": 1980,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-25-copy1",
-			"type": "file",
-			"file": "community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md",
-			"x": 2220,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-hr-25-copy2",
-			"type": "file",
-			"file": "community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md",
-			"x": 2460,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "dept-header-quranic",
-			"type": "text",
-			"text": "## Quranic Content Department\n**4 Role Types** | **Capacity Pool**",
-			"x": 3520,
-			"y": 2520,
-			"width": 1360,
-			"height": 100,
-			"color": "1"
-		},
-		{
-			"id": "stack-header-quranic-26",
-			"type": "text",
-			"text": "**Quranic Scholars**\n4\u00d7 capacity",
-			"x": 3550,
-			"y": 2660,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-quranic-26-copy0",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-26-copy1",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-26-copy2",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-26-copy3",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md",
-			"x": 4300,
-			"y": 2760,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-quranic-27",
-			"type": "text",
-			"text": "**Translation Review**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 2950,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-quranic-27-copy0",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-27-copy1",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-27-copy2",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 3050,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-quranic-28",
-			"type": "text",
-			"text": "**Content Verifier**\n4\u00d7 capacity",
-			"x": 3550,
-			"y": 3240,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-quranic-28-copy0",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-28-copy1",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-28-copy2",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-28-copy3",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md",
-			"x": 4300,
-			"y": 3340,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "stack-header-quranic-29",
-			"type": "text",
-			"text": "**Tafsir Curator**\n3\u00d7 capacity",
-			"x": 3550,
-			"y": 3530,
-			"width": 1300,
-			"height": 70,
-			"color": "1"
-		},
-		{
-			"id": "role-quranic-29-copy0",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md",
-			"x": 3580,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-29-copy1",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md",
-			"x": 3820,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "role-quranic-29-copy2",
-			"type": "file",
-			"file": "community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md",
-			"x": 4060,
-			"y": 3630,
-			"width": 200,
-			"height": 100
-		},
-		{
-			"id": "legend",
-			"type": "text",
-			"text": "**LEGEND**\n\n\ud83d\udfe6 SQUAD = Internal Project\n\ud83d\udcc1 Department = Shared Pool\n\ud83d\udc64 Role Node = Job Position\n\u00d7 Multiple = Capacity Stack\n\n**Relationship:**\n1 SQUAD \u2192 Many Departments\n1 Department \u2192 Many Roles\n1 Role \u2192 Many Hires (capacity)",
-			"x": -1000,
-			"y": 1600,
-			"width": 350,
-			"height": 350,
-			"color": "5"
-		}
+	"nodes":[
+		{"id":"role-product-1-copy0","type":"file","file":"community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md","x":5625,"y":255,"width":200,"height":100},
+		{"id":"role-product-1-copy1","type":"file","file":"community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md","x":5865,"y":255,"width":200,"height":100},
+		{"id":"role-product-1-copy2","type":"file","file":"community-cross-teams/product/Product-Strategy/Product-Strategy-Volunteer_Job-Profile.md","x":6105,"y":255,"width":200,"height":100},
+		{"id":"stack-header-product-2","type":"text","text":"**Product Manager**\n4× capacity","x":5595,"y":445,"width":1300,"height":70,"color":"1"},
+		{"id":"role-product-2-copy0","type":"file","file":"community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md","x":5625,"y":545,"width":200,"height":100},
+		{"id":"role-product-2-copy1","type":"file","file":"community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md","x":5865,"y":545,"width":200,"height":100},
+		{"id":"dept-header-product","type":"text","text":"## Product Department\n**5 Role Types** | **Capacity Pool**","x":5565,"y":15,"width":1360,"height":100,"color":"1"},
+		{"id":"stack-header-product-1","type":"text","text":"**Product Strategy**\n3× capacity","x":5595,"y":155,"width":1300,"height":70,"color":"1"},
+		{"id":"role-product-2-copy2","type":"file","file":"community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md","x":6105,"y":545,"width":200,"height":100},
+		{"id":"role-product-2-copy3","type":"file","file":"community-cross-teams/product/Product-Manager/Product-Manager-Volunteer_Job-Profile.md","x":6345,"y":545,"width":200,"height":100},
+		{"id":"pool-access","type":"text","text":"**→ POOL ACCESS →**\n\n_1-to-Many Relationship_\n\nAll SQUADs share\nall departments","x":4845,"y":495,"width":350,"height":180,"color":"5"},
+		{"id":"squad-qiraat","type":"text","text":"**Qiraat/LUBB**\n\n_Internal SQUAD_","x":4245,"y":795,"width":300,"height":140,"color":"5"},
+		{"id":"squad-apps","type":"text","text":"**Apps Directory**\n\n_Internal SQUAD_","x":4245,"y":995,"width":300,"height":140,"color":"5"},
+		{"id":"squad-drm","type":"text","text":"**Data & Relationship Management**\n\n_Internal SQUAD_","x":4245,"y":1195,"width":300,"height":140,"color":"5"},
+		{"id":"squad-ratq","type":"text","text":"**Tools Directory RATQ**\n\n_Internal SQUAD_","x":4245,"y":-5,"width":300,"height":140,"color":"5"},
+		{"id":"squad-resources","type":"text","text":"**Resources Library**\n\n_Internal SQUAD_","x":4245,"y":195,"width":300,"height":140,"color":"5"},
+		{"id":"squad-tilawat","type":"text","text":"**Tilawat**\n\n_Internal SQUAD_","x":4245,"y":395,"width":300,"height":140,"color":"5"},
+		{"id":"squad-recitation","type":"text","text":"**Recitation Tech**\n\n_Internal SQUAD_","x":4245,"y":595,"width":300,"height":140,"color":"5"},
+		{"id":"legend","type":"text","text":"**LEGEND**\n\n🟢 Product = Application/Service\n🟦 SQUAD = Internal Project Team\n📁 Department = Shared Pool\n👤 Role Node = Job Position\n× Multiple = Capacity Stack\n\n**Relationships:**\nMany Products ↔ Many SQUADs\n1 SQUAD → Many Departments\n1 Department → Many Roles\n1 Role → Many Hires (capacity)","x":4245,"y":1595,"width":350,"height":420,"color":"5"},
+		{"id":"role-hr-22-copy1","type":"file","file":"community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md","x":7465,"y":2755,"width":200,"height":100},
+		{"id":"role-hr-23-copy1","type":"file","file":"community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md","x":7465,"y":3045,"width":200,"height":100},
+		{"id":"role-hr-22-copy2","type":"file","file":"community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md","x":7705,"y":2755,"width":200,"height":100},
+		{"id":"role-hr-23-copy2","type":"file","file":"community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md","x":7705,"y":3045,"width":200,"height":100},
+		{"id":"dept-header-hr","type":"text","text":"## HR Department\n**4 Role Types** | **Capacity Pool**","x":7165,"y":2515,"width":1360,"height":100,"color":"6"},
+		{"id":"stack-header-hr-22","type":"text","text":"**Recruitment**\n3× capacity","x":7195,"y":2655,"width":1300,"height":70,"color":"6"},
+		{"id":"stack-header-hr-23","type":"text","text":"**Training & Dev**\n3× capacity","x":7195,"y":2945,"width":1300,"height":70,"color":"6"},
+		{"id":"stack-header-hr-24","type":"text","text":"**Employee Relations**\n2× capacity","x":7195,"y":3235,"width":1300,"height":70,"color":"6"},
+		{"id":"role-hr-22-copy0","type":"file","file":"community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md","x":7225,"y":2755,"width":200,"height":100},
+		{"id":"role-hr-23-copy0","type":"file","file":"community-cross-teams/HR/Training-Development-Volunteer/Training-Development-Volunteer_Job-Profile.md","x":7225,"y":3045,"width":200,"height":100},
+		{"id":"role-hr-24-copy0","type":"file","file":"community-cross-teams/HR/Employee-Relations-Volunteer/Employee-Relations-Volunteer_Job-Profile.md","x":7225,"y":3335,"width":200,"height":100},
+		{"id":"role-hr-24-copy1","type":"file","file":"community-cross-teams/HR/Employee-Relations-Volunteer/Employee-Relations-Volunteer_Job-Profile.md","x":7465,"y":3335,"width":200,"height":100},
+		{"id":"role-management-19-copy0","type":"file","file":"community-cross-teams/management/Strategic-Planning-Volunteer/Strategic-Planning-Volunteer_Job-Profile.md","x":5625,"y":2755,"width":200,"height":100},
+		{"id":"role-management-20-copy0","type":"file","file":"community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md","x":5625,"y":3045,"width":200,"height":100},
+		{"id":"role-management-21-copy0","type":"file","file":"community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md","x":5625,"y":3335,"width":200,"height":100},
+		{"id":"role-management-19-copy1","type":"file","file":"community-cross-teams/management/Strategic-Planning-Volunteer/Strategic-Planning-Volunteer_Job-Profile.md","x":5865,"y":2755,"width":200,"height":100},
+		{"id":"role-management-20-copy1","type":"file","file":"community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md","x":5865,"y":3045,"width":200,"height":100},
+		{"id":"role-management-20-copy2","type":"file","file":"community-cross-teams/management/Operations-Manager-Volunteer/Operations-Manager-Volunteer_Job-Profile.md","x":6105,"y":3045,"width":200,"height":100},
+		{"id":"role-management-21-copy1","type":"file","file":"community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md","x":5865,"y":3335,"width":200,"height":100},
+		{"id":"role-management-21-copy2","type":"file","file":"community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md","x":6105,"y":3335,"width":200,"height":100},
+		{"id":"role-management-21-copy3","type":"file","file":"community-cross-teams/contributors-volunteers/Administrative-Coordinator/Administrative-Coordinator_Job-Profile.md","x":6345,"y":3335,"width":200,"height":100},
+		{"id":"dept-header-management","type":"text","text":"## Management Department\n**3 Role Types** | **Capacity Pool**","x":5565,"y":2515,"width":1360,"height":100,"color":"4"},
+		{"id":"stack-header-management-19","type":"text","text":"**Strategic Planning**\n2× capacity","x":5595,"y":2655,"width":1300,"height":70,"color":"4"},
+		{"id":"stack-header-management-20","type":"text","text":"**Operations Manager**\n3× capacity","x":5595,"y":2945,"width":1300,"height":70,"color":"4"},
+		{"id":"stack-header-management-21","type":"text","text":"**Admin Coordinator**\n4× capacity","x":5595,"y":3235,"width":1300,"height":70,"color":"4"},
+		{"id":"dept-header-development","type":"text","text":"## Development Department\n**8 Role Types** | **Capacity Pool**","x":7165,"y":15,"width":1360,"height":100,"color":"2"},
+		{"id":"stack-header-development-6","type":"text","text":"**Frontend Dev**\n5× capacity","x":7195,"y":155,"width":1300,"height":70,"color":"2"},
+		{"id":"stack-header-development-7","type":"text","text":"**Backend Dev**\n5× capacity","x":7195,"y":445,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-6-copy0","type":"file","file":"community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md","x":7225,"y":255,"width":200,"height":100},
+		{"id":"role-product-4-copy3","type":"file","file":"community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md","x":6345,"y":1125,"width":200,"height":100},
+		{"id":"stack-header-product-5","type":"text","text":"**Associate PM**\n2× capacity","x":5595,"y":1315,"width":1300,"height":70,"color":"1"},
+		{"id":"role-product-5-copy0","type":"file","file":"community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Description.md","x":5625,"y":1415,"width":200,"height":100},
+		{"id":"role-product-5-copy1","type":"file","file":"community-cross-teams/product/Associate-Product-Manager/Associate-Product-Manager_Job-Description.md","x":5865,"y":1415,"width":200,"height":100},
+		{"id":"stack-header-product-4","type":"text","text":"**Product Designer**\n4× capacity","x":5595,"y":1025,"width":1300,"height":70,"color":"1"},
+		{"id":"role-product-4-copy0","type":"file","file":"community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md","x":5625,"y":1125,"width":200,"height":100},
+		{"id":"role-product-4-copy1","type":"file","file":"community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md","x":5865,"y":1125,"width":200,"height":100},
+		{"id":"role-product-4-copy2","type":"file","file":"community-cross-teams/product/Product-Designer-Volunteer/Product-Designer-Volunteer_Job-Profile.md","x":6105,"y":1125,"width":200,"height":100},
+		{"id":"stack-header-development-9","type":"text","text":"**DevOps**\n3× capacity","x":7195,"y":1025,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-9-copy0","type":"file","file":"community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md","x":7225,"y":1125,"width":200,"height":100},
+		{"id":"role-development-9-copy1","type":"file","file":"community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md","x":7465,"y":1125,"width":200,"height":100},
+		{"id":"role-development-9-copy2","type":"file","file":"community-cross-teams/development/DevOps-Engineer-Volunteer/DevOps-Engineer-Volunteer_Job-Profile.md","x":7705,"y":1125,"width":200,"height":100},
+		{"id":"stack-header-development-10","type":"text","text":"**QA/Testing**\n4× capacity","x":7195,"y":1315,"width":1300,"height":70,"color":"2"},
+		{"id":"stack-header-product-3","type":"text","text":"**User Research**\n3× capacity","x":5595,"y":735,"width":1300,"height":70,"color":"1"},
+		{"id":"role-product-3-copy0","type":"file","file":"community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md","x":5625,"y":835,"width":200,"height":100},
+		{"id":"role-product-3-copy1","type":"file","file":"community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md","x":5865,"y":835,"width":200,"height":100},
+		{"id":"role-product-3-copy2","type":"file","file":"community-cross-teams/product/User-Research-Volunteer/User-Research-Volunteer_Job-Profile.md","x":6105,"y":835,"width":200,"height":100},
+		{"id":"stack-header-development-8","type":"text","text":"**Mobile Dev**\n4× capacity","x":7195,"y":735,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-8-copy0","type":"file","file":"community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md","x":7225,"y":835,"width":200,"height":100},
+		{"id":"role-development-8-copy1","type":"file","file":"community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md","x":7465,"y":835,"width":200,"height":100},
+		{"id":"role-development-8-copy2","type":"file","file":"community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md","x":7705,"y":835,"width":200,"height":100},
+		{"id":"role-development-8-copy3","type":"file","file":"community-cross-teams/development/Mobile-Developer-Volunteer/Mobile-Developer-Volunteer_Job-Profile.md","x":7945,"y":835,"width":200,"height":100},
+		{"id":"role-quranic-28-copy0","type":"file","file":"community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md","x":8825,"y":3335,"width":200,"height":100},
+		{"id":"stack-header-hr-25","type":"text","text":"**Volunteer Coord**\n3× capacity","x":7195,"y":3525,"width":1300,"height":70,"color":"6"},
+		{"id":"role-hr-25-copy0","type":"file","file":"community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md","x":7225,"y":3625,"width":200,"height":100},
+		{"id":"role-hr-25-copy1","type":"file","file":"community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md","x":7465,"y":3625,"width":200,"height":100},
+		{"id":"role-hr-25-copy2","type":"file","file":"community-cross-teams/HR/Volunteer-Coordinator/Volunteer-Coordinator_Job-Profile.md","x":7705,"y":3625,"width":200,"height":100},
+		{"id":"role-quranic-29-copy0","type":"file","file":"community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md","x":8825,"y":3625,"width":200,"height":100},
+		{"id":"role-development-6-copy3","type":"file","file":"community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md","x":7945,"y":255,"width":200,"height":100},
+		{"id":"role-development-10-copy3","type":"file","file":"community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md","x":7945,"y":1415,"width":200,"height":100},
+		{"id":"title","type":"text","text":"# ITQAN Squad-Based Resource Pooling\n**Products (Many) ↔ SQUADs (Many) ↔ Shared Resource Pool**","x":5800,"y":-505,"width":1000,"height":150,"color":"5"},
+		{"id":"role-development-6-copy4","type":"file","file":"community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md","x":8185,"y":255,"width":200,"height":100},
+		{"id":"role-development-7-copy4","type":"file","file":"community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md","x":8185,"y":545,"width":200,"height":100},
+		{"id":"role-marketing-15-copy0","type":"file","file":"community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md","x":8825,"y":545,"width":200,"height":100},
+		{"id":"role-marketing-16-copy0","type":"file","file":"community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md","x":8825,"y":835,"width":200,"height":100},
+		{"id":"role-marketing-17-copy0","type":"file","file":"community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md","x":8825,"y":1125,"width":200,"height":100},
+		{"id":"role-marketing-18-copy0","type":"file","file":"community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md","x":8825,"y":1415,"width":200,"height":100},
+		{"id":"role-development-10-copy1","type":"file","file":"community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md","x":7465,"y":1415,"width":200,"height":100},
+		{"id":"role-development-11-copy1","type":"file","file":"community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md","x":7465,"y":1705,"width":200,"height":100},
+		{"id":"role-development-12-copy1","type":"file","file":"community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md","x":7465,"y":1995,"width":200,"height":100},
+		{"id":"role-development-10-copy2","type":"file","file":"community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md","x":7705,"y":1415,"width":200,"height":100},
+		{"id":"role-development-11-copy2","type":"file","file":"community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md","x":7705,"y":1705,"width":200,"height":100},
+		{"id":"role-development-12-copy2","type":"file","file":"community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md","x":7705,"y":1995,"width":200,"height":100},
+		{"id":"role-development-7-copy0","type":"file","file":"community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md","x":7225,"y":545,"width":200,"height":100},
+		{"id":"role-development-6-copy1","type":"file","file":"community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md","x":7465,"y":255,"width":200,"height":100},
+		{"id":"role-development-7-copy1","type":"file","file":"community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md","x":7465,"y":545,"width":200,"height":100},
+		{"id":"role-development-6-copy2","type":"file","file":"community-cross-teams/development/Frontend-Developer-Volunteer/Frontend-Developer-Volunteer_Job-Profile.md","x":7705,"y":255,"width":200,"height":100},
+		{"id":"role-development-7-copy2","type":"file","file":"community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md","x":7705,"y":545,"width":200,"height":100},
+		{"id":"role-development-7-copy3","type":"file","file":"community-cross-teams/development/Backend-Developer-Volunteer/Backend-Developer-Volunteer_Job-Profile.md","x":7945,"y":545,"width":200,"height":100},
+		{"id":"stack-header-development-13","type":"text","text":"**Scrum Master**\n2× capacity","x":7195,"y":2185,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-13-copy0","type":"file","file":"community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Description.md","x":7225,"y":2285,"width":200,"height":100},
+		{"id":"role-development-13-copy1","type":"file","file":"community-cross-teams/development/Scrum-Master-Intern/Scrum-Master-Intern_Job-Description.md","x":7465,"y":2285,"width":200,"height":100},
+		{"id":"role-quranic-27-copy0","type":"file","file":"community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md","x":8825,"y":3045,"width":200,"height":100},
+		{"id":"role-development-10-copy0","type":"file","file":"community-cross-teams/development/QA-Testing-Volunteer/QA-Testing-Volunteer_Job-Profile.md","x":7225,"y":1415,"width":200,"height":100},
+		{"id":"stack-header-development-11","type":"text","text":"**AI Engineer**\n3× capacity","x":7195,"y":1605,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-11-copy0","type":"file","file":"community-cross-teams/development/AI-Engineer-Intern/AI-Engineer-Intern_Job-Description.md","x":7225,"y":1705,"width":200,"height":100},
+		{"id":"stack-header-development-12","type":"text","text":"**Software Dev**\n3× capacity","x":7195,"y":1895,"width":1300,"height":70,"color":"2"},
+		{"id":"role-development-12-copy0","type":"file","file":"community-cross-teams/development/Software-Developer-Intern/Software-Developer-Intern_Job-Description.md","x":7225,"y":1995,"width":200,"height":100},
+		{"id":"dept-header-quranic","type":"text","text":"## Quranic Content Department\n**4 Role Types** | **Capacity Pool**","x":8765,"y":2515,"width":1360,"height":100,"color":"1"},
+		{"id":"stack-header-quranic-26","type":"text","text":"**Quranic Scholars**\n4× capacity","x":8795,"y":2655,"width":1300,"height":70,"color":"1"},
+		{"id":"role-quranic-26-copy0","type":"file","file":"community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md","x":8825,"y":2755,"width":200,"height":100},
+		{"id":"role-quranic-26-copy1","type":"file","file":"community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md","x":9065,"y":2755,"width":200,"height":100},
+		{"id":"role-quranic-26-copy2","type":"file","file":"community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md","x":9305,"y":2755,"width":200,"height":100},
+		{"id":"role-quranic-26-copy3","type":"file","file":"community-cross-teams/Quranic-Content/Quranic-Scholars-Volunteer/Quranic-Scholars-Volunteer_Job-Profile.md","x":9545,"y":2755,"width":200,"height":100},
+		{"id":"stack-header-marketing-15","type":"text","text":"**Content Strategist**\n3× capacity","x":8795,"y":445,"width":1300,"height":70,"color":"3"},
+		{"id":"role-marketing-15-copy1","type":"file","file":"community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md","x":9065,"y":545,"width":200,"height":100},
+		{"id":"role-marketing-15-copy2","type":"file","file":"community-cross-teams/marketing/Content-Strategist-Volunteer/Content-Strategist-Volunteer_Job-Profile.md","x":9305,"y":545,"width":200,"height":100},
+		{"id":"stack-header-marketing-16","type":"text","text":"**Video Editor**\n3× capacity","x":8795,"y":735,"width":1300,"height":70,"color":"3"},
+		{"id":"role-marketing-16-copy1","type":"file","file":"community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md","x":9065,"y":835,"width":200,"height":100},
+		{"id":"role-marketing-16-copy2","type":"file","file":"community-cross-teams/marketing/Video-Editor-Volunteer/AI-Video-Editor-Volunteer_Job-Profile.md","x":9305,"y":835,"width":200,"height":100},
+		{"id":"stack-header-marketing-17","type":"text","text":"**Social Media**\n4× capacity","x":8795,"y":1025,"width":1300,"height":70,"color":"3"},
+		{"id":"role-marketing-17-copy1","type":"file","file":"community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md","x":9065,"y":1125,"width":200,"height":100},
+		{"id":"role-marketing-17-copy2","type":"file","file":"community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md","x":9305,"y":1125,"width":200,"height":100},
+		{"id":"role-marketing-17-copy3","type":"file","file":"community-cross-teams/marketing/Social-Media-Manager-Volunteer/Social-Media-Manager-Volunteer_Job-Profile.md","x":9545,"y":1125,"width":200,"height":100},
+		{"id":"stack-header-marketing-18","type":"text","text":"**Graphics Designer**\n3× capacity","x":8795,"y":1315,"width":1300,"height":70,"color":"3"},
+		{"id":"role-marketing-18-copy1","type":"file","file":"community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md","x":9065,"y":1415,"width":200,"height":100},
+		{"id":"role-marketing-18-copy2","type":"file","file":"community-cross-teams/marketing/AI-Graphics-Designer-Volunteer/AI-Graphics-Designer-Volunteer_Job-Profile.md","x":9305,"y":1415,"width":200,"height":100},
+		{"id":"stack-header-quranic-27","type":"text","text":"**Translation Review**\n3× capacity","x":8795,"y":2945,"width":1300,"height":70,"color":"1"},
+		{"id":"role-quranic-27-copy1","type":"file","file":"community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md","x":9065,"y":3045,"width":200,"height":100},
+		{"id":"role-quranic-27-copy2","type":"file","file":"community-cross-teams/Quranic-Content/Translation-Reviewer-Volunteer/Translation-Reviewer-Volunteer_Job-Profile.md","x":9305,"y":3045,"width":200,"height":100},
+		{"id":"stack-header-quranic-28","type":"text","text":"**Content Verifier**\n4× capacity","x":8795,"y":3235,"width":1300,"height":70,"color":"1"},
+		{"id":"role-quranic-28-copy1","type":"file","file":"community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md","x":9065,"y":3335,"width":200,"height":100},
+		{"id":"role-quranic-28-copy2","type":"file","file":"community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md","x":9305,"y":3335,"width":200,"height":100},
+		{"id":"role-quranic-28-copy3","type":"file","file":"community-cross-teams/Quranic-Content/Content-Verifier-Volunteer/Content-Verifier-Volunteer_Job-Profile.md","x":9545,"y":3335,"width":200,"height":100},
+		{"id":"stack-header-quranic-29","type":"text","text":"**Tafsir Curator**\n3× capacity","x":8795,"y":3525,"width":1300,"height":70,"color":"1"},
+		{"id":"dept-header-marketing","type":"text","text":"## Marketing Department\n**5 Role Types** | **Capacity Pool**","x":8765,"y":15,"width":1360,"height":100,"color":"3"},
+		{"id":"stack-header-marketing-14","type":"text","text":"**Digital Marketing**\n3× capacity","x":8795,"y":155,"width":1300,"height":70,"color":"3"},
+		{"id":"role-marketing-14-copy0","type":"file","file":"community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md","x":8825,"y":255,"width":200,"height":100},
+		{"id":"role-marketing-14-copy1","type":"file","file":"community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md","x":9065,"y":255,"width":200,"height":100},
+		{"id":"role-marketing-14-copy2","type":"file","file":"community-cross-teams/marketing/Digital-Marketing-Volunteer/Digital-Marketing-Volunteer_Job-Profile.md","x":9305,"y":255,"width":200,"height":100},
+		{"id":"role-quranic-29-copy1","type":"file","file":"community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md","x":9065,"y":3625,"width":200,"height":100},
+		{"id":"role-quranic-29-copy2","type":"file","file":"community-cross-teams/Quranic-Content/Tafsir-Curator-Volunteer/Tafsir-Curator-Volunteer_Job-Profile.md","x":9305,"y":3625,"width":200,"height":100},
+		{"id":"product-1","type":"text","text":"**Quran Recitation Platform**\n\n_Product/Application_","x":3500,"y":50,"width":300,"height":100,"color":"1"},
+		{"id":"product-2","type":"text","text":"**Islamic Learning Hub**\n\n_Product/Application_","x":3500,"y":185,"width":300,"height":100,"color":"2"},
+		{"id":"product-3","type":"text","text":"**Qiraat Training System**\n\n_Product/Application_","x":3500,"y":320,"width":300,"height":100,"color":"3"},
+		{"id":"product-4","type":"text","text":"**Digital Quran Library**\n\n_Product/Application_","x":3500,"y":455,"width":300,"height":100,"color":"4"},
+		{"id":"product-5","type":"text","text":"**Community Engagement Portal**\n\n_Product/Application_","x":3500,"y":590,"width":300,"height":100,"color":"6"},
+		{"id":"product-6","type":"text","text":"**Mobile Quran Apps Suite**\n\n_Product/Application_","x":3500,"y":725,"width":300,"height":100,"color":"1"},
+		{"id":"product-7","type":"text","text":"**Tafsir Knowledge Base**\n\n_Product/Application_","x":3500,"y":860,"width":300,"height":100,"color":"2"},
+		{"id":"product-8","type":"text","text":"**Audio Recitation Archive**\n\n_Product/Application_","x":3500,"y":995,"width":300,"height":100,"color":"3"},
+		{"id":"product-9","type":"text","text":"**Islamic Resources Directory**\n\n_Product/Application_","x":3500,"y":1130,"width":300,"height":100,"color":"4"},
+		{"id":"product-10","type":"text","text":"**Data Analytics Dashboard**\n\n_Product/Application_","x":3500,"y":1265,"width":300,"height":100,"color":"6"},
+		{"id":"products-header","type":"text","text":"# PRODUCTS\n**10 Applications/Services**\n\n_Each product is built by\nmultiple SQUADs working together_","x":3500,"y":-200,"width":300,"height":200,"color":"5"}
 	],
-	"edges": [
-		{
-			"id": "edge-squad-ratq-access",
-			"fromNode": "squad-ratq",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-resources-access",
-			"fromNode": "squad-resources",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-tilawat-access",
-			"fromNode": "squad-tilawat",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-recitation-access",
-			"fromNode": "squad-recitation",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-qiraat-access",
-			"fromNode": "squad-qiraat",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-apps-access",
-			"fromNode": "squad-apps",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-squad-drm-access",
-			"fromNode": "squad-drm",
-			"fromSide": "right",
-			"toNode": "pool-access",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "edge-role-product-1-copy0",
-			"fromNode": "stack-header-product-1",
-			"fromSide": "bottom",
-			"toNode": "role-product-1-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-1-copy1",
-			"fromNode": "stack-header-product-1",
-			"fromSide": "bottom",
-			"toNode": "role-product-1-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-1-copy2",
-			"fromNode": "stack-header-product-1",
-			"fromSide": "bottom",
-			"toNode": "role-product-1-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-2-copy0",
-			"fromNode": "stack-header-product-2",
-			"fromSide": "bottom",
-			"toNode": "role-product-2-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-2-copy1",
-			"fromNode": "stack-header-product-2",
-			"fromSide": "bottom",
-			"toNode": "role-product-2-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-2-copy2",
-			"fromNode": "stack-header-product-2",
-			"fromSide": "bottom",
-			"toNode": "role-product-2-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-2-copy3",
-			"fromNode": "stack-header-product-2",
-			"fromSide": "bottom",
-			"toNode": "role-product-2-copy3",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-3-copy0",
-			"fromNode": "stack-header-product-3",
-			"fromSide": "bottom",
-			"toNode": "role-product-3-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-3-copy1",
-			"fromNode": "stack-header-product-3",
-			"fromSide": "bottom",
-			"toNode": "role-product-3-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-3-copy2",
-			"fromNode": "stack-header-product-3",
-			"fromSide": "bottom",
-			"toNode": "role-product-3-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-4-copy0",
-			"fromNode": "stack-header-product-4",
-			"fromSide": "bottom",
-			"toNode": "role-product-4-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-4-copy1",
-			"fromNode": "stack-header-product-4",
-			"fromSide": "bottom",
-			"toNode": "role-product-4-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-4-copy2",
-			"fromNode": "stack-header-product-4",
-			"fromSide": "bottom",
-			"toNode": "role-product-4-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-4-copy3",
-			"fromNode": "stack-header-product-4",
-			"fromSide": "bottom",
-			"toNode": "role-product-4-copy3",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-5-copy0",
-			"fromNode": "stack-header-product-5",
-			"fromSide": "bottom",
-			"toNode": "role-product-5-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-product-5-copy1",
-			"fromNode": "stack-header-product-5",
-			"fromSide": "bottom",
-			"toNode": "role-product-5-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-access-product",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-product",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-development-6-copy0",
-			"fromNode": "stack-header-development-6",
-			"fromSide": "bottom",
-			"toNode": "role-development-6-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-6-copy1",
-			"fromNode": "stack-header-development-6",
-			"fromSide": "bottom",
-			"toNode": "role-development-6-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-6-copy2",
-			"fromNode": "stack-header-development-6",
-			"fromSide": "bottom",
-			"toNode": "role-development-6-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-6-copy3",
-			"fromNode": "stack-header-development-6",
-			"fromSide": "bottom",
-			"toNode": "role-development-6-copy3",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-6-copy4",
-			"fromNode": "stack-header-development-6",
-			"fromSide": "bottom",
-			"toNode": "role-development-6-copy4",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-7-copy0",
-			"fromNode": "stack-header-development-7",
-			"fromSide": "bottom",
-			"toNode": "role-development-7-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-7-copy1",
-			"fromNode": "stack-header-development-7",
-			"fromSide": "bottom",
-			"toNode": "role-development-7-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-7-copy2",
-			"fromNode": "stack-header-development-7",
-			"fromSide": "bottom",
-			"toNode": "role-development-7-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-7-copy3",
-			"fromNode": "stack-header-development-7",
-			"fromSide": "bottom",
-			"toNode": "role-development-7-copy3",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-7-copy4",
-			"fromNode": "stack-header-development-7",
-			"fromSide": "bottom",
-			"toNode": "role-development-7-copy4",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-8-copy0",
-			"fromNode": "stack-header-development-8",
-			"fromSide": "bottom",
-			"toNode": "role-development-8-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-8-copy1",
-			"fromNode": "stack-header-development-8",
-			"fromSide": "bottom",
-			"toNode": "role-development-8-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-8-copy2",
-			"fromNode": "stack-header-development-8",
-			"fromSide": "bottom",
-			"toNode": "role-development-8-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-8-copy3",
-			"fromNode": "stack-header-development-8",
-			"fromSide": "bottom",
-			"toNode": "role-development-8-copy3",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-9-copy0",
-			"fromNode": "stack-header-development-9",
-			"fromSide": "bottom",
-			"toNode": "role-development-9-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-9-copy1",
-			"fromNode": "stack-header-development-9",
-			"fromSide": "bottom",
-			"toNode": "role-development-9-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-9-copy2",
-			"fromNode": "stack-header-development-9",
-			"fromSide": "bottom",
-			"toNode": "role-development-9-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-10-copy0",
-			"fromNode": "stack-header-development-10",
-			"fromSide": "bottom",
-			"toNode": "role-development-10-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-10-copy1",
-			"fromNode": "stack-header-development-10",
-			"fromSide": "bottom",
-			"toNode": "role-development-10-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-10-copy2",
-			"fromNode": "stack-header-development-10",
-			"fromSide": "bottom",
-			"toNode": "role-development-10-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-10-copy3",
-			"fromNode": "stack-header-development-10",
-			"fromSide": "bottom",
-			"toNode": "role-development-10-copy3",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-11-copy0",
-			"fromNode": "stack-header-development-11",
-			"fromSide": "bottom",
-			"toNode": "role-development-11-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-11-copy1",
-			"fromNode": "stack-header-development-11",
-			"fromSide": "bottom",
-			"toNode": "role-development-11-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-11-copy2",
-			"fromNode": "stack-header-development-11",
-			"fromSide": "bottom",
-			"toNode": "role-development-11-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-12-copy0",
-			"fromNode": "stack-header-development-12",
-			"fromSide": "bottom",
-			"toNode": "role-development-12-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-12-copy1",
-			"fromNode": "stack-header-development-12",
-			"fromSide": "bottom",
-			"toNode": "role-development-12-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-12-copy2",
-			"fromNode": "stack-header-development-12",
-			"fromSide": "bottom",
-			"toNode": "role-development-12-copy2",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-13-copy0",
-			"fromNode": "stack-header-development-13",
-			"fromSide": "bottom",
-			"toNode": "role-development-13-copy0",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-development-13-copy1",
-			"fromNode": "stack-header-development-13",
-			"fromSide": "bottom",
-			"toNode": "role-development-13-copy1",
-			"toSide": "top",
-			"color": "2"
-		},
-		{
-			"id": "edge-access-development",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-development",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-role-marketing-14-copy0",
-			"fromNode": "stack-header-marketing-14",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-14-copy0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-14-copy1",
-			"fromNode": "stack-header-marketing-14",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-14-copy1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-14-copy2",
-			"fromNode": "stack-header-marketing-14",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-14-copy2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-15-copy0",
-			"fromNode": "stack-header-marketing-15",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-15-copy0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-15-copy1",
-			"fromNode": "stack-header-marketing-15",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-15-copy1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-15-copy2",
-			"fromNode": "stack-header-marketing-15",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-15-copy2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-16-copy0",
-			"fromNode": "stack-header-marketing-16",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-16-copy0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-16-copy1",
-			"fromNode": "stack-header-marketing-16",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-16-copy1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-16-copy2",
-			"fromNode": "stack-header-marketing-16",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-16-copy2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-17-copy0",
-			"fromNode": "stack-header-marketing-17",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-17-copy0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-17-copy1",
-			"fromNode": "stack-header-marketing-17",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-17-copy1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-17-copy2",
-			"fromNode": "stack-header-marketing-17",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-17-copy2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-17-copy3",
-			"fromNode": "stack-header-marketing-17",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-17-copy3",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-18-copy0",
-			"fromNode": "stack-header-marketing-18",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-18-copy0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-18-copy1",
-			"fromNode": "stack-header-marketing-18",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-18-copy1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-marketing-18-copy2",
-			"fromNode": "stack-header-marketing-18",
-			"fromSide": "bottom",
-			"toNode": "role-marketing-18-copy2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "edge-access-marketing",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-marketing",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-role-management-19-copy0",
-			"fromNode": "stack-header-management-19",
-			"fromSide": "bottom",
-			"toNode": "role-management-19-copy0",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-19-copy1",
-			"fromNode": "stack-header-management-19",
-			"fromSide": "bottom",
-			"toNode": "role-management-19-copy1",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-20-copy0",
-			"fromNode": "stack-header-management-20",
-			"fromSide": "bottom",
-			"toNode": "role-management-20-copy0",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-20-copy1",
-			"fromNode": "stack-header-management-20",
-			"fromSide": "bottom",
-			"toNode": "role-management-20-copy1",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-20-copy2",
-			"fromNode": "stack-header-management-20",
-			"fromSide": "bottom",
-			"toNode": "role-management-20-copy2",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-21-copy0",
-			"fromNode": "stack-header-management-21",
-			"fromSide": "bottom",
-			"toNode": "role-management-21-copy0",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-21-copy1",
-			"fromNode": "stack-header-management-21",
-			"fromSide": "bottom",
-			"toNode": "role-management-21-copy1",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-21-copy2",
-			"fromNode": "stack-header-management-21",
-			"fromSide": "bottom",
-			"toNode": "role-management-21-copy2",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-management-21-copy3",
-			"fromNode": "stack-header-management-21",
-			"fromSide": "bottom",
-			"toNode": "role-management-21-copy3",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "edge-access-management",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-management",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-role-hr-22-copy0",
-			"fromNode": "stack-header-hr-22",
-			"fromSide": "bottom",
-			"toNode": "role-hr-22-copy0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-22-copy1",
-			"fromNode": "stack-header-hr-22",
-			"fromSide": "bottom",
-			"toNode": "role-hr-22-copy1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-22-copy2",
-			"fromNode": "stack-header-hr-22",
-			"fromSide": "bottom",
-			"toNode": "role-hr-22-copy2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-23-copy0",
-			"fromNode": "stack-header-hr-23",
-			"fromSide": "bottom",
-			"toNode": "role-hr-23-copy0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-23-copy1",
-			"fromNode": "stack-header-hr-23",
-			"fromSide": "bottom",
-			"toNode": "role-hr-23-copy1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-23-copy2",
-			"fromNode": "stack-header-hr-23",
-			"fromSide": "bottom",
-			"toNode": "role-hr-23-copy2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-24-copy0",
-			"fromNode": "stack-header-hr-24",
-			"fromSide": "bottom",
-			"toNode": "role-hr-24-copy0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-24-copy1",
-			"fromNode": "stack-header-hr-24",
-			"fromSide": "bottom",
-			"toNode": "role-hr-24-copy1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-25-copy0",
-			"fromNode": "stack-header-hr-25",
-			"fromSide": "bottom",
-			"toNode": "role-hr-25-copy0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-25-copy1",
-			"fromNode": "stack-header-hr-25",
-			"fromSide": "bottom",
-			"toNode": "role-hr-25-copy1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-hr-25-copy2",
-			"fromNode": "stack-header-hr-25",
-			"fromSide": "bottom",
-			"toNode": "role-hr-25-copy2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "edge-access-hr",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-hr",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-role-quranic-26-copy0",
-			"fromNode": "stack-header-quranic-26",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-26-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-26-copy1",
-			"fromNode": "stack-header-quranic-26",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-26-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-26-copy2",
-			"fromNode": "stack-header-quranic-26",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-26-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-26-copy3",
-			"fromNode": "stack-header-quranic-26",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-26-copy3",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-27-copy0",
-			"fromNode": "stack-header-quranic-27",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-27-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-27-copy1",
-			"fromNode": "stack-header-quranic-27",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-27-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-27-copy2",
-			"fromNode": "stack-header-quranic-27",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-27-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-28-copy0",
-			"fromNode": "stack-header-quranic-28",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-28-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-28-copy1",
-			"fromNode": "stack-header-quranic-28",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-28-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-28-copy2",
-			"fromNode": "stack-header-quranic-28",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-28-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-28-copy3",
-			"fromNode": "stack-header-quranic-28",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-28-copy3",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-29-copy0",
-			"fromNode": "stack-header-quranic-29",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-29-copy0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-29-copy1",
-			"fromNode": "stack-header-quranic-29",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-29-copy1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-role-quranic-29-copy2",
-			"fromNode": "stack-header-quranic-29",
-			"fromSide": "bottom",
-			"toNode": "role-quranic-29-copy2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "edge-access-quranic",
-			"fromNode": "pool-access",
-			"fromSide": "right",
-			"toNode": "dept-header-quranic",
-			"toSide": "left",
-			"color": "1"
-		}
+	"edges":[
+		{"id":"edge-squad-ratq-access","fromNode":"squad-ratq","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-resources-access","fromNode":"squad-resources","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-tilawat-access","fromNode":"squad-tilawat","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-recitation-access","fromNode":"squad-recitation","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-qiraat-access","fromNode":"squad-qiraat","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-apps-access","fromNode":"squad-apps","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-squad-drm-access","fromNode":"squad-drm","fromSide":"right","toNode":"pool-access","toSide":"left","color":"5"},
+		{"id":"edge-role-product-1-copy0","fromNode":"stack-header-product-1","fromSide":"bottom","toNode":"role-product-1-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-product-1-copy1","fromNode":"stack-header-product-1","fromSide":"bottom","toNode":"role-product-1-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-product-1-copy2","fromNode":"stack-header-product-1","fromSide":"bottom","toNode":"role-product-1-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-product-2-copy0","fromNode":"stack-header-product-2","fromSide":"bottom","toNode":"role-product-2-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-product-2-copy1","fromNode":"stack-header-product-2","fromSide":"bottom","toNode":"role-product-2-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-product-2-copy2","fromNode":"stack-header-product-2","fromSide":"bottom","toNode":"role-product-2-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-product-2-copy3","fromNode":"stack-header-product-2","fromSide":"bottom","toNode":"role-product-2-copy3","toSide":"top","color":"1"},
+		{"id":"edge-role-product-3-copy0","fromNode":"stack-header-product-3","fromSide":"bottom","toNode":"role-product-3-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-product-3-copy1","fromNode":"stack-header-product-3","fromSide":"bottom","toNode":"role-product-3-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-product-3-copy2","fromNode":"stack-header-product-3","fromSide":"bottom","toNode":"role-product-3-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-product-4-copy0","fromNode":"stack-header-product-4","fromSide":"bottom","toNode":"role-product-4-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-product-4-copy1","fromNode":"stack-header-product-4","fromSide":"bottom","toNode":"role-product-4-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-product-4-copy2","fromNode":"stack-header-product-4","fromSide":"bottom","toNode":"role-product-4-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-product-4-copy3","fromNode":"stack-header-product-4","fromSide":"bottom","toNode":"role-product-4-copy3","toSide":"top","color":"1"},
+		{"id":"edge-role-product-5-copy0","fromNode":"stack-header-product-5","fromSide":"bottom","toNode":"role-product-5-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-product-5-copy1","fromNode":"stack-header-product-5","fromSide":"bottom","toNode":"role-product-5-copy1","toSide":"top","color":"1"},
+		{"id":"edge-access-product","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-product","toSide":"left","color":"1"},
+		{"id":"edge-role-development-6-copy0","fromNode":"stack-header-development-6","fromSide":"bottom","toNode":"role-development-6-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-6-copy1","fromNode":"stack-header-development-6","fromSide":"bottom","toNode":"role-development-6-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-6-copy2","fromNode":"stack-header-development-6","fromSide":"bottom","toNode":"role-development-6-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-6-copy3","fromNode":"stack-header-development-6","fromSide":"bottom","toNode":"role-development-6-copy3","toSide":"top","color":"2"},
+		{"id":"edge-role-development-6-copy4","fromNode":"stack-header-development-6","fromSide":"bottom","toNode":"role-development-6-copy4","toSide":"top","color":"2"},
+		{"id":"edge-role-development-7-copy0","fromNode":"stack-header-development-7","fromSide":"bottom","toNode":"role-development-7-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-7-copy1","fromNode":"stack-header-development-7","fromSide":"bottom","toNode":"role-development-7-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-7-copy2","fromNode":"stack-header-development-7","fromSide":"bottom","toNode":"role-development-7-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-7-copy3","fromNode":"stack-header-development-7","fromSide":"bottom","toNode":"role-development-7-copy3","toSide":"top","color":"2"},
+		{"id":"edge-role-development-7-copy4","fromNode":"stack-header-development-7","fromSide":"bottom","toNode":"role-development-7-copy4","toSide":"top","color":"2"},
+		{"id":"edge-role-development-8-copy0","fromNode":"stack-header-development-8","fromSide":"bottom","toNode":"role-development-8-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-8-copy1","fromNode":"stack-header-development-8","fromSide":"bottom","toNode":"role-development-8-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-8-copy2","fromNode":"stack-header-development-8","fromSide":"bottom","toNode":"role-development-8-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-8-copy3","fromNode":"stack-header-development-8","fromSide":"bottom","toNode":"role-development-8-copy3","toSide":"top","color":"2"},
+		{"id":"edge-role-development-9-copy0","fromNode":"stack-header-development-9","fromSide":"bottom","toNode":"role-development-9-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-9-copy1","fromNode":"stack-header-development-9","fromSide":"bottom","toNode":"role-development-9-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-9-copy2","fromNode":"stack-header-development-9","fromSide":"bottom","toNode":"role-development-9-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-10-copy0","fromNode":"stack-header-development-10","fromSide":"bottom","toNode":"role-development-10-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-10-copy1","fromNode":"stack-header-development-10","fromSide":"bottom","toNode":"role-development-10-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-10-copy2","fromNode":"stack-header-development-10","fromSide":"bottom","toNode":"role-development-10-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-10-copy3","fromNode":"stack-header-development-10","fromSide":"bottom","toNode":"role-development-10-copy3","toSide":"top","color":"2"},
+		{"id":"edge-role-development-11-copy0","fromNode":"stack-header-development-11","fromSide":"bottom","toNode":"role-development-11-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-11-copy1","fromNode":"stack-header-development-11","fromSide":"bottom","toNode":"role-development-11-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-11-copy2","fromNode":"stack-header-development-11","fromSide":"bottom","toNode":"role-development-11-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-12-copy0","fromNode":"stack-header-development-12","fromSide":"bottom","toNode":"role-development-12-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-12-copy1","fromNode":"stack-header-development-12","fromSide":"bottom","toNode":"role-development-12-copy1","toSide":"top","color":"2"},
+		{"id":"edge-role-development-12-copy2","fromNode":"stack-header-development-12","fromSide":"bottom","toNode":"role-development-12-copy2","toSide":"top","color":"2"},
+		{"id":"edge-role-development-13-copy0","fromNode":"stack-header-development-13","fromSide":"bottom","toNode":"role-development-13-copy0","toSide":"top","color":"2"},
+		{"id":"edge-role-development-13-copy1","fromNode":"stack-header-development-13","fromSide":"bottom","toNode":"role-development-13-copy1","toSide":"top","color":"2"},
+		{"id":"edge-access-development","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-development","toSide":"left","color":"2"},
+		{"id":"edge-role-marketing-14-copy0","fromNode":"stack-header-marketing-14","fromSide":"bottom","toNode":"role-marketing-14-copy0","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-14-copy1","fromNode":"stack-header-marketing-14","fromSide":"bottom","toNode":"role-marketing-14-copy1","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-14-copy2","fromNode":"stack-header-marketing-14","fromSide":"bottom","toNode":"role-marketing-14-copy2","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-15-copy0","fromNode":"stack-header-marketing-15","fromSide":"bottom","toNode":"role-marketing-15-copy0","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-15-copy1","fromNode":"stack-header-marketing-15","fromSide":"bottom","toNode":"role-marketing-15-copy1","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-15-copy2","fromNode":"stack-header-marketing-15","fromSide":"bottom","toNode":"role-marketing-15-copy2","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-16-copy0","fromNode":"stack-header-marketing-16","fromSide":"bottom","toNode":"role-marketing-16-copy0","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-16-copy1","fromNode":"stack-header-marketing-16","fromSide":"bottom","toNode":"role-marketing-16-copy1","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-16-copy2","fromNode":"stack-header-marketing-16","fromSide":"bottom","toNode":"role-marketing-16-copy2","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-17-copy0","fromNode":"stack-header-marketing-17","fromSide":"bottom","toNode":"role-marketing-17-copy0","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-17-copy1","fromNode":"stack-header-marketing-17","fromSide":"bottom","toNode":"role-marketing-17-copy1","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-17-copy2","fromNode":"stack-header-marketing-17","fromSide":"bottom","toNode":"role-marketing-17-copy2","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-17-copy3","fromNode":"stack-header-marketing-17","fromSide":"bottom","toNode":"role-marketing-17-copy3","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-18-copy0","fromNode":"stack-header-marketing-18","fromSide":"bottom","toNode":"role-marketing-18-copy0","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-18-copy1","fromNode":"stack-header-marketing-18","fromSide":"bottom","toNode":"role-marketing-18-copy1","toSide":"top","color":"3"},
+		{"id":"edge-role-marketing-18-copy2","fromNode":"stack-header-marketing-18","fromSide":"bottom","toNode":"role-marketing-18-copy2","toSide":"top","color":"3"},
+		{"id":"edge-access-marketing","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-marketing","toSide":"left","color":"3"},
+		{"id":"edge-role-management-19-copy0","fromNode":"stack-header-management-19","fromSide":"bottom","toNode":"role-management-19-copy0","toSide":"top","color":"4"},
+		{"id":"edge-role-management-19-copy1","fromNode":"stack-header-management-19","fromSide":"bottom","toNode":"role-management-19-copy1","toSide":"top","color":"4"},
+		{"id":"edge-role-management-20-copy0","fromNode":"stack-header-management-20","fromSide":"bottom","toNode":"role-management-20-copy0","toSide":"top","color":"4"},
+		{"id":"edge-role-management-20-copy1","fromNode":"stack-header-management-20","fromSide":"bottom","toNode":"role-management-20-copy1","toSide":"top","color":"4"},
+		{"id":"edge-role-management-20-copy2","fromNode":"stack-header-management-20","fromSide":"bottom","toNode":"role-management-20-copy2","toSide":"top","color":"4"},
+		{"id":"edge-role-management-21-copy0","fromNode":"stack-header-management-21","fromSide":"bottom","toNode":"role-management-21-copy0","toSide":"top","color":"4"},
+		{"id":"edge-role-management-21-copy1","fromNode":"stack-header-management-21","fromSide":"bottom","toNode":"role-management-21-copy1","toSide":"top","color":"4"},
+		{"id":"edge-role-management-21-copy2","fromNode":"stack-header-management-21","fromSide":"bottom","toNode":"role-management-21-copy2","toSide":"top","color":"4"},
+		{"id":"edge-role-management-21-copy3","fromNode":"stack-header-management-21","fromSide":"bottom","toNode":"role-management-21-copy3","toSide":"top","color":"4"},
+		{"id":"edge-access-management","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-management","toSide":"left","color":"4"},
+		{"id":"edge-role-hr-22-copy0","fromNode":"stack-header-hr-22","fromSide":"bottom","toNode":"role-hr-22-copy0","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-22-copy1","fromNode":"stack-header-hr-22","fromSide":"bottom","toNode":"role-hr-22-copy1","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-22-copy2","fromNode":"stack-header-hr-22","fromSide":"bottom","toNode":"role-hr-22-copy2","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-23-copy0","fromNode":"stack-header-hr-23","fromSide":"bottom","toNode":"role-hr-23-copy0","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-23-copy1","fromNode":"stack-header-hr-23","fromSide":"bottom","toNode":"role-hr-23-copy1","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-23-copy2","fromNode":"stack-header-hr-23","fromSide":"bottom","toNode":"role-hr-23-copy2","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-24-copy0","fromNode":"stack-header-hr-24","fromSide":"bottom","toNode":"role-hr-24-copy0","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-24-copy1","fromNode":"stack-header-hr-24","fromSide":"bottom","toNode":"role-hr-24-copy1","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-25-copy0","fromNode":"stack-header-hr-25","fromSide":"bottom","toNode":"role-hr-25-copy0","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-25-copy1","fromNode":"stack-header-hr-25","fromSide":"bottom","toNode":"role-hr-25-copy1","toSide":"top","color":"6"},
+		{"id":"edge-role-hr-25-copy2","fromNode":"stack-header-hr-25","fromSide":"bottom","toNode":"role-hr-25-copy2","toSide":"top","color":"6"},
+		{"id":"edge-access-hr","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-hr","toSide":"left","color":"6"},
+		{"id":"edge-role-quranic-26-copy0","fromNode":"stack-header-quranic-26","fromSide":"bottom","toNode":"role-quranic-26-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-26-copy1","fromNode":"stack-header-quranic-26","fromSide":"bottom","toNode":"role-quranic-26-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-26-copy2","fromNode":"stack-header-quranic-26","fromSide":"bottom","toNode":"role-quranic-26-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-26-copy3","fromNode":"stack-header-quranic-26","fromSide":"bottom","toNode":"role-quranic-26-copy3","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-27-copy0","fromNode":"stack-header-quranic-27","fromSide":"bottom","toNode":"role-quranic-27-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-27-copy1","fromNode":"stack-header-quranic-27","fromSide":"bottom","toNode":"role-quranic-27-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-27-copy2","fromNode":"stack-header-quranic-27","fromSide":"bottom","toNode":"role-quranic-27-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-28-copy0","fromNode":"stack-header-quranic-28","fromSide":"bottom","toNode":"role-quranic-28-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-28-copy1","fromNode":"stack-header-quranic-28","fromSide":"bottom","toNode":"role-quranic-28-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-28-copy2","fromNode":"stack-header-quranic-28","fromSide":"bottom","toNode":"role-quranic-28-copy2","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-28-copy3","fromNode":"stack-header-quranic-28","fromSide":"bottom","toNode":"role-quranic-28-copy3","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-29-copy0","fromNode":"stack-header-quranic-29","fromSide":"bottom","toNode":"role-quranic-29-copy0","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-29-copy1","fromNode":"stack-header-quranic-29","fromSide":"bottom","toNode":"role-quranic-29-copy1","toSide":"top","color":"1"},
+		{"id":"edge-role-quranic-29-copy2","fromNode":"stack-header-quranic-29","fromSide":"bottom","toNode":"role-quranic-29-copy2","toSide":"top","color":"1"},
+		{"id":"edge-access-quranic","fromNode":"pool-access","fromSide":"right","toNode":"dept-header-quranic","toSide":"left","color":"1"},
+		{"id":"edge-product-1-squad-ratq","fromNode":"product-1","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"1"},
+		{"id":"edge-product-1-squad-tilawat","fromNode":"product-1","fromSide":"right","toNode":"squad-tilawat","toSide":"left","color":"1"},
+		{"id":"edge-product-1-squad-recitation","fromNode":"product-1","fromSide":"right","toNode":"squad-recitation","toSide":"left","color":"1"},
+		{"id":"edge-product-2-squad-resources","fromNode":"product-2","fromSide":"right","toNode":"squad-resources","toSide":"left","color":"2"},
+		{"id":"edge-product-2-squad-tilawat","fromNode":"product-2","fromSide":"right","toNode":"squad-tilawat","toSide":"left","color":"2"},
+		{"id":"edge-product-2-squad-qiraat","fromNode":"product-2","fromSide":"right","toNode":"squad-qiraat","toSide":"left","color":"2"},
+		{"id":"edge-product-3-squad-qiraat","fromNode":"product-3","fromSide":"right","toNode":"squad-qiraat","toSide":"left","color":"3"},
+		{"id":"edge-product-3-squad-recitation","fromNode":"product-3","fromSide":"right","toNode":"squad-recitation","toSide":"left","color":"3"},
+		{"id":"edge-product-3-squad-tilawat","fromNode":"product-3","fromSide":"right","toNode":"squad-tilawat","toSide":"left","color":"3"},
+		{"id":"edge-product-4-squad-resources","fromNode":"product-4","fromSide":"right","toNode":"squad-resources","toSide":"left","color":"4"},
+		{"id":"edge-product-4-squad-ratq","fromNode":"product-4","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"4"},
+		{"id":"edge-product-4-squad-drm","fromNode":"product-4","fromSide":"right","toNode":"squad-drm","toSide":"left","color":"4"},
+		{"id":"edge-product-5-squad-drm","fromNode":"product-5","fromSide":"right","toNode":"squad-drm","toSide":"left","color":"6"},
+		{"id":"edge-product-5-squad-resources","fromNode":"product-5","fromSide":"right","toNode":"squad-resources","toSide":"left","color":"6"},
+		{"id":"edge-product-5-squad-apps","fromNode":"product-5","fromSide":"right","toNode":"squad-apps","toSide":"left","color":"6"},
+		{"id":"edge-product-6-squad-apps","fromNode":"product-6","fromSide":"right","toNode":"squad-apps","toSide":"left","color":"1"},
+		{"id":"edge-product-6-squad-tilawat","fromNode":"product-6","fromSide":"right","toNode":"squad-tilawat","toSide":"left","color":"1"},
+		{"id":"edge-product-6-squad-recitation","fromNode":"product-6","fromSide":"right","toNode":"squad-recitation","toSide":"left","color":"1"},
+		{"id":"edge-product-6-squad-ratq","fromNode":"product-6","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"1"},
+		{"id":"edge-product-7-squad-resources","fromNode":"product-7","fromSide":"right","toNode":"squad-resources","toSide":"left","color":"2"},
+		{"id":"edge-product-7-squad-ratq","fromNode":"product-7","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"2"},
+		{"id":"edge-product-7-squad-qiraat","fromNode":"product-7","fromSide":"right","toNode":"squad-qiraat","toSide":"left","color":"2"},
+		{"id":"edge-product-8-squad-recitation","fromNode":"product-8","fromSide":"right","toNode":"squad-recitation","toSide":"left","color":"3"},
+		{"id":"edge-product-8-squad-tilawat","fromNode":"product-8","fromSide":"right","toNode":"squad-tilawat","toSide":"left","color":"3"},
+		{"id":"edge-product-8-squad-apps","fromNode":"product-8","fromSide":"right","toNode":"squad-apps","toSide":"left","color":"3"},
+		{"id":"edge-product-9-squad-ratq","fromNode":"product-9","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"4"},
+		{"id":"edge-product-9-squad-resources","fromNode":"product-9","fromSide":"right","toNode":"squad-resources","toSide":"left","color":"4"},
+		{"id":"edge-product-9-squad-apps","fromNode":"product-9","fromSide":"right","toNode":"squad-apps","toSide":"left","color":"4"},
+		{"id":"edge-product-9-squad-drm","fromNode":"product-9","fromSide":"right","toNode":"squad-drm","toSide":"left","color":"4"},
+		{"id":"edge-product-10-squad-drm","fromNode":"product-10","fromSide":"right","toNode":"squad-drm","toSide":"left","color":"6"},
+		{"id":"edge-product-10-squad-apps","fromNode":"product-10","fromSide":"right","toNode":"squad-apps","toSide":"left","color":"6"},
+		{"id":"edge-product-10-squad-ratq","fromNode":"product-10","fromSide":"right","toNode":"squad-ratq","toSide":"left","color":"6"},
+		{"id":"edge-interconnect-product-1-product-3","fromNode":"product-1","fromSide":"bottom","toNode":"product-3","toSide":"top","color":"1","label":"depends on"},
+		{"id":"edge-interconnect-product-1-product-8","fromNode":"product-1","fromSide":"bottom","toNode":"product-8","toSide":"top","color":"1","label":"depends on"},
+		{"id":"edge-interconnect-product-2-product-7","fromNode":"product-2","fromSide":"bottom","toNode":"product-7","toSide":"top","color":"2","label":"depends on"},
+		{"id":"edge-interconnect-product-2-product-4","fromNode":"product-2","fromSide":"bottom","toNode":"product-4","toSide":"top","color":"2","label":"depends on"},
+		{"id":"edge-interconnect-product-3-product-8","fromNode":"product-3","fromSide":"bottom","toNode":"product-8","toSide":"top","color":"3","label":"depends on"},
+		{"id":"edge-interconnect-product-4-product-9","fromNode":"product-4","fromSide":"bottom","toNode":"product-9","toSide":"top","color":"4","label":"depends on"},
+		{"id":"edge-interconnect-product-4-product-7","fromNode":"product-4","fromSide":"bottom","toNode":"product-7","toSide":"top","color":"4","label":"depends on"},
+		{"id":"edge-interconnect-product-5-product-9","fromNode":"product-5","fromSide":"bottom","toNode":"product-9","toSide":"top","color":"6","label":"depends on"},
+		{"id":"edge-interconnect-product-6-product-1","fromNode":"product-6","fromSide":"bottom","toNode":"product-1","toSide":"top","color":"1","label":"depends on"},
+		{"id":"edge-interconnect-product-6-product-4","fromNode":"product-6","fromSide":"bottom","toNode":"product-4","toSide":"top","color":"1","label":"depends on"},
+		{"id":"edge-interconnect-product-6-product-8","fromNode":"product-6","fromSide":"bottom","toNode":"product-8","toSide":"top","color":"1","label":"depends on"},
+		{"id":"edge-interconnect-product-9-product-10","fromNode":"product-9","fromSide":"bottom","toNode":"product-10","toSide":"top","color":"4","label":"depends on"},
+		{"id":"edge-interconnect-product-10-product-5","fromNode":"product-10","fromSide":"bottom","toNode":"product-5","toSide":"top","color":"6","label":"depends on"}
 	]
 }
