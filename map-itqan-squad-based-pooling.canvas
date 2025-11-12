@@ -174,16 +174,6 @@
 			"color": "5"
 		},
 		{
-			"id": "legend",
-			"type": "text",
-			"text": "**LEGEND**\n\n\ud83d\udfe2 Product = Application/Service\n\ud83d\udfe6 SQUAD = Internal Project Team\n\ud83d\udcc1 Department = Shared Pool\n\ud83d\udc64 Role Node = Job Position\n\u00d7 Multiple = Capacity Stack\n\n**Relationships:**\nMany Products \u2194 Many SQUADs\n1 SQUAD \u2192 Many Departments\n1 Department \u2192 Many Roles\n1 Role \u2192 Many Hires (capacity)",
-			"x": 4245,
-			"y": 1595,
-			"width": 350,
-			"height": 420,
-			"color": "5"
-		},
-		{
 			"id": "role-hr-22-copy1",
 			"type": "file",
 			"file": "community-cross-teams/HR/Recruitment-Volunteer/Recruitment-Volunteer_Job-Profile.md",
@@ -1320,7 +1310,7 @@
 			"type": "text",
 			"text": "**Quranic Content Management System**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 185,
+			"y": 210,
 			"width": 300,
 			"height": 100,
 			"color": "2"
@@ -1330,7 +1320,7 @@
 			"type": "text",
 			"text": "**LUBB**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 320,
+			"y": 370,
 			"width": 300,
 			"height": 100,
 			"color": "3"
@@ -1340,7 +1330,7 @@
 			"type": "text",
 			"text": "**Munajjam**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 455,
+			"y": 530,
 			"width": 300,
 			"height": 100,
 			"color": "4"
@@ -1350,7 +1340,7 @@
 			"type": "text",
 			"text": "**Marqoum**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 590,
+			"y": 690,
 			"width": 300,
 			"height": 100,
 			"color": "6"
@@ -1360,7 +1350,7 @@
 			"type": "text",
 			"text": "**Naseej**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 725,
+			"y": 850,
 			"width": 300,
 			"height": 100,
 			"color": "1"
@@ -1370,7 +1360,7 @@
 			"type": "text",
 			"text": "**Apps Directory Website**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 860,
+			"y": 1010,
 			"width": 300,
 			"height": 100,
 			"color": "2"
@@ -1380,7 +1370,7 @@
 			"type": "text",
 			"text": "**Itqan Website**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 995,
+			"y": 1170,
 			"width": 300,
 			"height": 100,
 			"color": "3"
@@ -1390,7 +1380,7 @@
 			"type": "text",
 			"text": "**Community Website**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 1130,
+			"y": 1330,
 			"width": 300,
 			"height": 100,
 			"color": "4"
@@ -1400,7 +1390,7 @@
 			"type": "text",
 			"text": "**Itqan Data Analytics**\n\n_Product/Application_",
 			"x": 3500,
-			"y": 1265,
+			"y": 1490,
 			"width": 300,
 			"height": 100,
 			"color": "6"
@@ -1413,6 +1403,16 @@
 			"y": -200,
 			"width": 300,
 			"height": 200,
+			"color": "5"
+		},
+		{
+			"id": "legend",
+			"type": "text",
+			"text": "**LEGEND**\n\n\ud83d\udfe2 Product = Application/Service\n\ud83d\udfe6 SQUAD = Internal Project Team\n\ud83d\udcc1 Department = Shared Pool\n\ud83d\udc64 Role Node = Job Position\n\u00d7 Multiple = Capacity Stack\n\n**Relationships:**\nMany Products \u2194 Many SQUADs\n1 SQUAD \u2192 Many Departments\n1 Department \u2192 Many Roles\n1 Role \u2192 Many Hires (capacity)",
+			"x": 4220,
+			"y": 1575,
+			"width": 350,
+			"height": 420,
 			"color": "5"
 		}
 	],
@@ -2282,262 +2282,6 @@
 			"color": "1"
 		},
 		{
-			"id": "edge-product-1-squad-ratq",
-			"fromNode": "product-1",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-1-squad-tilawat",
-			"fromNode": "product-1",
-			"fromSide": "right",
-			"toNode": "squad-tilawat",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-1-squad-recitation",
-			"fromNode": "product-1",
-			"fromSide": "right",
-			"toNode": "squad-recitation",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-2-squad-resources",
-			"fromNode": "product-2",
-			"fromSide": "right",
-			"toNode": "squad-resources",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-2-squad-tilawat",
-			"fromNode": "product-2",
-			"fromSide": "right",
-			"toNode": "squad-tilawat",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-2-squad-qiraat",
-			"fromNode": "product-2",
-			"fromSide": "right",
-			"toNode": "squad-qiraat",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-3-squad-qiraat",
-			"fromNode": "product-3",
-			"fromSide": "right",
-			"toNode": "squad-qiraat",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-3-squad-recitation",
-			"fromNode": "product-3",
-			"fromSide": "right",
-			"toNode": "squad-recitation",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-3-squad-tilawat",
-			"fromNode": "product-3",
-			"fromSide": "right",
-			"toNode": "squad-tilawat",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-4-squad-resources",
-			"fromNode": "product-4",
-			"fromSide": "right",
-			"toNode": "squad-resources",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-4-squad-ratq",
-			"fromNode": "product-4",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-4-squad-drm",
-			"fromNode": "product-4",
-			"fromSide": "right",
-			"toNode": "squad-drm",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-5-squad-drm",
-			"fromNode": "product-5",
-			"fromSide": "right",
-			"toNode": "squad-drm",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-product-5-squad-resources",
-			"fromNode": "product-5",
-			"fromSide": "right",
-			"toNode": "squad-resources",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-product-5-squad-apps",
-			"fromNode": "product-5",
-			"fromSide": "right",
-			"toNode": "squad-apps",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-product-6-squad-apps",
-			"fromNode": "product-6",
-			"fromSide": "right",
-			"toNode": "squad-apps",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-6-squad-tilawat",
-			"fromNode": "product-6",
-			"fromSide": "right",
-			"toNode": "squad-tilawat",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-6-squad-recitation",
-			"fromNode": "product-6",
-			"fromSide": "right",
-			"toNode": "squad-recitation",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-6-squad-ratq",
-			"fromNode": "product-6",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "edge-product-7-squad-resources",
-			"fromNode": "product-7",
-			"fromSide": "right",
-			"toNode": "squad-resources",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-7-squad-ratq",
-			"fromNode": "product-7",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-7-squad-qiraat",
-			"fromNode": "product-7",
-			"fromSide": "right",
-			"toNode": "squad-qiraat",
-			"toSide": "left",
-			"color": "2"
-		},
-		{
-			"id": "edge-product-8-squad-recitation",
-			"fromNode": "product-8",
-			"fromSide": "right",
-			"toNode": "squad-recitation",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-8-squad-tilawat",
-			"fromNode": "product-8",
-			"fromSide": "right",
-			"toNode": "squad-tilawat",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-8-squad-apps",
-			"fromNode": "product-8",
-			"fromSide": "right",
-			"toNode": "squad-apps",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "edge-product-9-squad-ratq",
-			"fromNode": "product-9",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-9-squad-resources",
-			"fromNode": "product-9",
-			"fromSide": "right",
-			"toNode": "squad-resources",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-9-squad-apps",
-			"fromNode": "product-9",
-			"fromSide": "right",
-			"toNode": "squad-apps",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-9-squad-drm",
-			"fromNode": "product-9",
-			"fromSide": "right",
-			"toNode": "squad-drm",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "edge-product-10-squad-drm",
-			"fromNode": "product-10",
-			"fromSide": "right",
-			"toNode": "squad-drm",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-product-10-squad-apps",
-			"fromNode": "product-10",
-			"fromSide": "right",
-			"toNode": "squad-apps",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "edge-product-10-squad-ratq",
-			"fromNode": "product-10",
-			"fromSide": "right",
-			"toNode": "squad-ratq",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
 			"id": "edge-interconnect-product-1-product-3",
 			"fromNode": "product-1",
 			"fromSide": "bottom",
@@ -2653,6 +2397,204 @@
 			"toSide": "top",
 			"color": "6",
 			"label": "depends on"
+		},
+		{
+			"id": "edge-product-1-squad-ratq",
+			"fromNode": "product-1",
+			"fromSide": "right",
+			"toNode": "squad-ratq",
+			"toSide": "left",
+			"color": "1",
+			"label": "tools"
+		},
+		{
+			"id": "edge-product-1-squad-tilawat",
+			"fromNode": "product-1",
+			"fromSide": "right",
+			"toNode": "squad-tilawat",
+			"toSide": "left",
+			"color": "1",
+			"label": "recitation"
+		},
+		{
+			"id": "edge-product-2-squad-resources",
+			"fromNode": "product-2",
+			"fromSide": "right",
+			"toNode": "squad-resources",
+			"toSide": "left",
+			"color": "2",
+			"label": "content"
+		},
+		{
+			"id": "edge-product-2-squad-qiraat",
+			"fromNode": "product-2",
+			"fromSide": "right",
+			"toNode": "squad-qiraat",
+			"toSide": "left",
+			"color": "2",
+			"label": "variants"
+		},
+		{
+			"id": "edge-product-3-squad-qiraat",
+			"fromNode": "product-3",
+			"fromSide": "right",
+			"toNode": "squad-qiraat",
+			"toSide": "left",
+			"color": "3",
+			"label": "rules"
+		},
+		{
+			"id": "edge-product-3-squad-recitation",
+			"fromNode": "product-3",
+			"fromSide": "right",
+			"toNode": "squad-recitation",
+			"toSide": "left",
+			"color": "3",
+			"label": "practice"
+		},
+		{
+			"id": "edge-product-4-squad-resources",
+			"fromNode": "product-4",
+			"fromSide": "right",
+			"toNode": "squad-resources",
+			"toSide": "left",
+			"color": "4",
+			"label": "library"
+		},
+		{
+			"id": "edge-product-4-squad-ratq",
+			"fromNode": "product-4",
+			"fromSide": "right",
+			"toNode": "squad-ratq",
+			"toSide": "left",
+			"color": "4",
+			"label": "tools"
+		},
+		{
+			"id": "edge-product-5-squad-drm",
+			"fromNode": "product-5",
+			"fromSide": "right",
+			"toNode": "squad-drm",
+			"toSide": "left",
+			"color": "6",
+			"label": "analytics"
+		},
+		{
+			"id": "edge-product-5-squad-apps",
+			"fromNode": "product-5",
+			"fromSide": "right",
+			"toNode": "squad-apps",
+			"toSide": "left",
+			"color": "6",
+			"label": "platform"
+		},
+		{
+			"id": "edge-product-6-squad-apps",
+			"fromNode": "product-6",
+			"fromSide": "right",
+			"toNode": "squad-apps",
+			"toSide": "left",
+			"color": "1",
+			"label": "mobile"
+		},
+		{
+			"id": "edge-product-6-squad-tilawat",
+			"fromNode": "product-6",
+			"fromSide": "right",
+			"toNode": "squad-tilawat",
+			"toSide": "left",
+			"color": "1",
+			"label": "features"
+		},
+		{
+			"id": "edge-product-6-squad-ratq",
+			"fromNode": "product-6",
+			"fromSide": "right",
+			"toNode": "squad-ratq",
+			"toSide": "left",
+			"color": "1",
+			"label": "integration"
+		},
+		{
+			"id": "edge-product-7-squad-ratq",
+			"fromNode": "product-7",
+			"fromSide": "right",
+			"toNode": "squad-ratq",
+			"toSide": "left",
+			"color": "2",
+			"label": "directory"
+		},
+		{
+			"id": "edge-product-7-squad-resources",
+			"fromNode": "product-7",
+			"fromSide": "right",
+			"toNode": "squad-resources",
+			"toSide": "left",
+			"color": "2",
+			"label": "catalog"
+		},
+		{
+			"id": "edge-product-8-squad-apps",
+			"fromNode": "product-8",
+			"fromSide": "right",
+			"toNode": "squad-apps",
+			"toSide": "left",
+			"color": "3",
+			"label": "platform"
+		},
+		{
+			"id": "edge-product-8-squad-tilawat",
+			"fromNode": "product-8",
+			"fromSide": "right",
+			"toNode": "squad-tilawat",
+			"toSide": "left",
+			"color": "3",
+			"label": "content"
+		},
+		{
+			"id": "edge-product-9-squad-drm",
+			"fromNode": "product-9",
+			"fromSide": "right",
+			"toNode": "squad-drm",
+			"toSide": "left",
+			"color": "4",
+			"label": "community"
+		},
+		{
+			"id": "edge-product-9-squad-resources",
+			"fromNode": "product-9",
+			"fromSide": "right",
+			"toNode": "squad-resources",
+			"toSide": "left",
+			"color": "4",
+			"label": "content"
+		},
+		{
+			"id": "edge-product-9-squad-apps",
+			"fromNode": "product-9",
+			"fromSide": "right",
+			"toNode": "squad-apps",
+			"toSide": "left",
+			"color": "4",
+			"label": "platform"
+		},
+		{
+			"id": "edge-product-10-squad-drm",
+			"fromNode": "product-10",
+			"fromSide": "right",
+			"toNode": "squad-drm",
+			"toSide": "left",
+			"color": "6",
+			"label": "analytics"
+		},
+		{
+			"id": "edge-product-10-squad-ratq",
+			"fromNode": "product-10",
+			"fromSide": "right",
+			"toNode": "squad-ratq",
+			"toSide": "left",
+			"color": "6",
+			"label": "integration"
 		}
 	]
 }
