@@ -6,7 +6,9 @@ TIBIAN Quranic Technologies Map
 - Open Source Assets Map.
 - ITQAN Products Map.
 - Quran Apps Directory Map.
-- ITQAN Community Organizational Chart Map.
+- ITQAN Human Resources Map.
+  - Organizational Chart with 6 departments and 27 roles
+  - Squad-Based Resource Pooling (10 products, 7 SQUADs, shared talent pool)
   - [Content Team Hiring Plan](ITQAN-Content-Team-Hiring-Plan.md) (Reference)
   - [Partners & Community Acquisition Plan](ITQAN-Partners-Community-Acquisition-Plan.md)
   - [Volunteer/Intern Orchestration Plan](ITQAN-Volunteer-Intern-Orchestration-Plan.md)
@@ -43,7 +45,7 @@ This project uses a **branch-based versioning strategy** where each sub-map has 
 - `map/open-source-assets` - Open Source Assets Map development
 - `map/itqan-products` - ITQAN Products Map development
 - `map/quran-apps-directory` - Quran Apps Directory Map development
-- `map/itqan-community-org-chart` - ITQAN Community Organizational Chart Map development
+- `ITQAN-human-resources` - ITQAN Human Resources Map development (org chart & resource pooling)
 
 ## Working with Maps
 
